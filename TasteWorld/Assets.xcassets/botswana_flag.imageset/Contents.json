@@ -1,0 +1,13 @@
+{
+  "images": [
+    {
+      "filename": "botswana_flag.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

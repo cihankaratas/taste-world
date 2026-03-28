@@ -1,0 +1,13 @@
+{
+  "images": [
+    {
+      "filename": "georgia_country_flag.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

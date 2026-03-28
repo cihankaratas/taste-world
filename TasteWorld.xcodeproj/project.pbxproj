@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0767E34A00DE0094E85C23C8 /* fix_steps4.py in Resources */ = {isa = PBXBuildFile; fileRef = 027A3FB05EFB1A23967FFCB3 /* fix_steps4.py */; };
+		0B3F974B198BE9702C0029F7 /* generate_countries.py in Resources */ = {isa = PBXBuildFile; fileRef = AAF91D37DD665F63178343CA /* generate_countries.py */; };
+		1358FECFC8404C4D3C15D2D6 /* wiki_images.py in Resources */ = {isa = PBXBuildFile; fileRef = 703CB10DB35966EE3AB8CF33 /* wiki_images.py */; };
+		1E05CBC369C4E91B2C0B2B81 /* CountryBoundaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F586DC4B4D6F35D6BF0ECC /* CountryBoundaries.swift */; };
+		27C7B8EF50B2DD8A4F967F53 /* download_flags.py in Resources */ = {isa = PBXBuildFile; fileRef = 05ACD9AFD0203890CBE4A032 /* download_flags.py */; };
+		2A42B6873934A47157E2B7CC /* fix_ingredients_2.py in Resources */ = {isa = PBXBuildFile; fileRef = FC83209B7F516BB07B6C42B9 /* fix_ingredients_2.py */; };
+		3163128944CEF2E9FD9F057E /* download_commons.py in Resources */ = {isa = PBXBuildFile; fileRef = 6B8F8C7A60A26C31136C571F /* download_commons.py */; };
+		32CC22B7AE86C51EA680FEA5 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA10F8F8815E1235534D3E0 /* SplashView.swift */; };
+		3A95089AF4E24E6FF739C9FC /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA27550FEC56EFCEDE7898D /* Country.swift */; };
+		3AFB5FD02542150D772748C8 /* download_retry.py in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8845201D29CCF6E59B6AA /* download_retry.py */; };
+		4784FF0CE4484829C5B72BE8 /* update_recipes_tr.py in Resources */ = {isa = PBXBuildFile; fileRef = F4176C833022C74ABD3C6572 /* update_recipes_tr.py */; };
+		5ED81FFA0549C24913F385F9 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9D181EBA8D0D9145AFA5342 /* test.jpg */; };
+		60DD44BE3364D134948DE695 /* CountryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9709FD2096483EA2AC3B9D8 /* CountryData.swift */; };
+		68645F8F3FC046FED7F6A498 /* fix_steps.py in Resources */ = {isa = PBXBuildFile; fileRef = 5409F655F8087D47E411231E /* fix_steps.py */; };
+		6BCDAEC4218B1983DAC1269E /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE3A044FDDF8871CF0A283 /* RecipeDetailView.swift */; };
+		7134DA32FE8FEF02F2FDEE1E /* download_images.py in Resources */ = {isa = PBXBuildFile; fileRef = F5AB60AB5CD005AA5B1AF6A9 /* download_images.py */; };
+		831053D8CB1B522965B6933A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328A91A62E602C1507B2A6B /* ContentView.swift */; };
+		8557A1DD1C939460B6EAA9AB /* GlobeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E534109117DB53030F3ABACE /* GlobeScene.swift */; };
+		9196CC2AE326223EBFFB9902 /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC39500CFA560CFEF425C87 /* FavoritesManager.swift */; };
+		A0492EB40579E840972483EB /* download_pixabay.py in Resources */ = {isa = PBXBuildFile; fileRef = 4291B94A054DB46C3E34F44D /* download_pixabay.py */; };
+		A26268329509AC647C35C8F9 /* GlobalOverlayGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D06C457F4BB2AD1651BC32 /* GlobalOverlayGenerator.swift */; };
+		A40AB41247864D4F380A8B4F /* fix_steps5.py in Resources */ = {isa = PBXBuildFile; fileRef = 01FF6E41E2497BCD90F7123A /* fix_steps5.py */; };
+		A5E6AB0132471A1585BC6C56 /* missing_countries.json in Resources */ = {isa = PBXBuildFile; fileRef = BCFB73BED887D4318DE9434F /* missing_countries.json */; };
+		A6A7F18EFEF42C6CFF219265 /* find_missing.py in Resources */ = {isa = PBXBuildFile; fileRef = 08E6C5B4E582F19DD92230E5 /* find_missing.py */; };
+		AA7B75BE2823FF942C7E3B9E /* fix_ingredients.py in Resources */ = {isa = PBXBuildFile; fileRef = 6627F95FF90852201904B3EE /* fix_ingredients.py */; };
+		AD53A58664D71108ADEBC491 /* download_missing.py in Resources */ = {isa = PBXBuildFile; fileRef = 2F8ED126691C86E3A58D818E /* download_missing.py */; };
+		AF26860322CA398D8F896D60 /* reinject_countries.py in Resources */ = {isa = PBXBuildFile; fileRef = 42792B3A45DBA2D31C4D8DE6 /* reinject_countries.py */; };
+		B0C908F75FFFD9ED86E82594 /* fix_steps3.py in Resources */ = {isa = PBXBuildFile; fileRef = 00E5BBEA8DEB210B348CB5E9 /* fix_steps3.py */; };
+		C18593B369056FD21035CA65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D6E3A7F82DD2F3B4C950B33 /* Assets.xcassets */; };
+		C4CC23B061F577901357DA0E /* TasteWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7842AD0F1D6E311B6BC2E55 /* TasteWorldApp.swift */; };
+		C7AE2EAEDF4C57CA5C5D4996 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD6D5B318FE647A83BDA91F /* FavoritesView.swift */; };
+		CB24C573088787F79DE26844 /* fix_steps6.py in Resources */ = {isa = PBXBuildFile; fileRef = 8F750B8070741E45CE8A699B /* fix_steps6.py */; };
+		DB5B44E0F9D7001EFAD90210 /* download_all_images.py in Resources */ = {isa = PBXBuildFile; fileRef = 3F95DD75889B97A30213C684 /* download_all_images.py */; };
+		DC802ED2E3EC3BBCB49B2388 /* generate_country_boundaries.py in Resources */ = {isa = PBXBuildFile; fileRef = 5AB1B7136E9DEA3E4BC09755 /* generate_country_boundaries.py */; };
+		E7321A5D4780452E3CD44C33 /* fix_steps2.py in Resources */ = {isa = PBXBuildFile; fileRef = 29D4A22F84008D1796C04A4F /* fix_steps2.py */; };
+		F628E39D0A590CF8C6B96F96 /* inject_missing_countries.py in Resources */ = {isa = PBXBuildFile; fileRef = 85E1B7C26AAB0C7FE8FE1A62 /* inject_missing_countries.py */; };
+		F65305287B02AF54DB22BDC5 /* GlobeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3045FE2B8FBC4653770CE /* GlobeView.swift */; };
+		FA5CC5BD590DE619E72CF22B /* GlobeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2655B1B15BD298BE38199 /* GlobeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00E5BBEA8DEB210B348CB5E9 /* fix_steps3.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = fix_steps3.py; sourceTree = "<group>"; };
+		01FF6E41E2497BCD90F7123A /* fix_steps5.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = fix_steps5.py; sourceTree = "<group>"; };
+		027A3FB05EFB1A23967FFCB3 /* fix_steps4.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = fix_steps4.py; sourceTree = "<group>"; };
+		05ACD9AFD0203890CBE4A032 /* download_flags.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = download_flags.py; sourceTree = "<group>"; };
+		08E6C5B4E582F19DD92230E5 /* find_missing.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = find_missing.py; sourceTree = "<group>"; };
+		0BB2655B1B15BD298BE38199 /* GlobeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeViewController.swift; sourceTree = "<group>"; };
+		0D6E3A7F82DD2F3B4C950B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AE8845201D29CCF6E59B6AA /* download_retry.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = download_retry.py; sourceTree = "<group>"; };
+		28D06C457F4BB2AD1651BC32 /* GlobalOverlayGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalOverlayGenerator.swift; sourceTree = "<group>"; };
+		29D4A22F84008D1796C04A4F /* fix_steps2.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = fix_steps2.py; sourceTree = "<group>"; };
+		2F8ED126691C86E3A58D818E /* download_missing.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = download_missing.py; sourceTree = "<group>"; };
+		3F95DD75889B97A30213C684 /* download_all_images.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = download_all_images.py; sourceTree = "<group>"; };
+		42792B3A45DBA2D31C4D8DE6 /* reinject_countries.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = reinject_countries.py; sourceTree = "<group>"; };
+		4291B94A054DB46C3E34F44D /* download_pixabay.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = download_pixabay.py; sourceTree = "<group>"; };
+		5409F655F8087D47E411231E /* fix_steps.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = fix_steps.py; sourceTree = "<group>"; };
+		5AB1B7136E9DEA3E4BC09755 /* generate_country_boundaries.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = generate_country_boundaries.py; sourceTree = "<group>"; };
+		5EAE3A044FDDF8871CF0A283 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		6328A91A62E602C1507B2A6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6627F95FF90852201904B3EE /* fix_ingredients.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = fix_ingredients.py; sourceTree = "<group>"; };
+		6B8F8C7A60A26C31136C571F /* download_commons.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = download_commons.py; sourceTree = "<group>"; };
+		703CB10DB35966EE3AB8CF33 /* wiki_images.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = wiki_images.py; sourceTree = "<group>"; };
+		85E1B7C26AAB0C7FE8FE1A62 /* inject_missing_countries.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = inject_missing_countries.py; sourceTree = "<group>"; };
+		8F750B8070741E45CE8A699B /* fix_steps6.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = fix_steps6.py; sourceTree = "<group>"; };
+		AAF91D37DD665F63178343CA /* generate_countries.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = generate_countries.py; sourceTree = "<group>"; };
+		ABD6D5B318FE647A83BDA91F /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		ACA10F8F8815E1235534D3E0 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		B1C3045FE2B8FBC4653770CE /* GlobeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeView.swift; sourceTree = "<group>"; };
+		BCFB73BED887D4318DE9434F /* missing_countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = missing_countries.json; sourceTree = "<group>"; };
+		BDC39500CFA560CFEF425C87 /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
+		BFA27550FEC56EFCEDE7898D /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		C7842AD0F1D6E311B6BC2E55 /* TasteWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteWorldApp.swift; sourceTree = "<group>"; };
+		C9709FD2096483EA2AC3B9D8 /* CountryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryData.swift; sourceTree = "<group>"; };
+		D9D181EBA8D0D9145AFA5342 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		E534109117DB53030F3ABACE /* GlobeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeScene.swift; sourceTree = "<group>"; };
+		E9F586DC4B4D6F35D6BF0ECC /* CountryBoundaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryBoundaries.swift; sourceTree = "<group>"; };
+		F4176C833022C74ABD3C6572 /* update_recipes_tr.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = update_recipes_tr.py; sourceTree = "<group>"; };
+		F5AB60AB5CD005AA5B1AF6A9 /* download_images.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = download_images.py; sourceTree = "<group>"; };
+		F8F40E488D16FBE19B6C41F6 /* TasteWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasteWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC83209B7F516BB07B6C42B9 /* fix_ingredients_2.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = fix_ingredients_2.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1ED4DD6887E3FEC331548861 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BFA27550FEC56EFCEDE7898D /* Country.swift */,
+				E9F586DC4B4D6F35D6BF0ECC /* CountryBoundaries.swift */,
+				C9709FD2096483EA2AC3B9D8 /* CountryData.swift */,
+				BDC39500CFA560CFEF425C87 /* FavoritesManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F517CB54337E2A8F6AC736D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8F40E488D16FBE19B6C41F6 /* TasteWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		677570A6F2D45F8A542ACD0F /* TasteWorld */ = {
+			isa = PBXGroup;
+			children = (
+				6F85CF68FB60646708129D9A /* Globe */,
+				1ED4DD6887E3FEC331548861 /* Models */,
+				E5DF5E98DEDFC637F7774EB6 /* Views */,
+				0D6E3A7F82DD2F3B4C950B33 /* Assets.xcassets */,
+				6328A91A62E602C1507B2A6B /* ContentView.swift */,
+				3F95DD75889B97A30213C684 /* download_all_images.py */,
+				6B8F8C7A60A26C31136C571F /* download_commons.py */,
+				05ACD9AFD0203890CBE4A032 /* download_flags.py */,
+				F5AB60AB5CD005AA5B1AF6A9 /* download_images.py */,
+				2F8ED126691C86E3A58D818E /* download_missing.py */,
+				4291B94A054DB46C3E34F44D /* download_pixabay.py */,
+				1AE8845201D29CCF6E59B6AA /* download_retry.py */,
+				08E6C5B4E582F19DD92230E5 /* find_missing.py */,
+				FC83209B7F516BB07B6C42B9 /* fix_ingredients_2.py */,
+				6627F95FF90852201904B3EE /* fix_ingredients.py */,
+				5409F655F8087D47E411231E /* fix_steps.py */,
+				29D4A22F84008D1796C04A4F /* fix_steps2.py */,
+				00E5BBEA8DEB210B348CB5E9 /* fix_steps3.py */,
+				027A3FB05EFB1A23967FFCB3 /* fix_steps4.py */,
+				01FF6E41E2497BCD90F7123A /* fix_steps5.py */,
+				8F750B8070741E45CE8A699B /* fix_steps6.py */,
+				AAF91D37DD665F63178343CA /* generate_countries.py */,
+				5AB1B7136E9DEA3E4BC09755 /* generate_country_boundaries.py */,
+				85E1B7C26AAB0C7FE8FE1A62 /* inject_missing_countries.py */,
+				BCFB73BED887D4318DE9434F /* missing_countries.json */,
+				42792B3A45DBA2D31C4D8DE6 /* reinject_countries.py */,
+				C7842AD0F1D6E311B6BC2E55 /* TasteWorldApp.swift */,
+				D9D181EBA8D0D9145AFA5342 /* test.jpg */,
+				F4176C833022C74ABD3C6572 /* update_recipes_tr.py */,
+				703CB10DB35966EE3AB8CF33 /* wiki_images.py */,
+			);
+			path = TasteWorld;
+			sourceTree = "<group>";
+		};
+		6F85CF68FB60646708129D9A /* Globe */ = {
+			isa = PBXGroup;
+			children = (
+				28D06C457F4BB2AD1651BC32 /* GlobalOverlayGenerator.swift */,
+				E534109117DB53030F3ABACE /* GlobeScene.swift */,
+				B1C3045FE2B8FBC4653770CE /* GlobeView.swift */,
+				0BB2655B1B15BD298BE38199 /* GlobeViewController.swift */,
+			);
+			path = Globe;
+			sourceTree = "<group>";
+		};
+		93CC62B80BC959FE8D441E4A = {
+			isa = PBXGroup;
+			children = (
+				677570A6F2D45F8A542ACD0F /* TasteWorld */,
+				1F517CB54337E2A8F6AC736D /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+		};
+		E5DF5E98DEDFC637F7774EB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ABD6D5B318FE647A83BDA91F /* FavoritesView.swift */,
+				5EAE3A044FDDF8871CF0A283 /* RecipeDetailView.swift */,
+				ACA10F8F8815E1235534D3E0 /* SplashView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		590DC1303352580616BA7735 /* TasteWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E2FB150A687AED920377F8 /* Build configuration list for PBXNativeTarget "TasteWorld" */;
+			buildPhases = (
+				BFAF97EE1FE5141839979A93 /* Sources */,
+				BB0429903874F6B72C54EE9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TasteWorld;
+			packageProductDependencies = (
+			);
+			productName = TasteWorld;
+			productReference = F8F40E488D16FBE19B6C41F6 /* TasteWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5C8D4FB1D44F963ABBD2FB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 9BE1DB39EF1572BA609EDF88 /* Build configuration list for PBXProject "TasteWorld" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 93CC62B80BC959FE8D441E4A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1F517CB54337E2A8F6AC736D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				590DC1303352580616BA7735 /* TasteWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB0429903874F6B72C54EE9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18593B369056FD21035CA65 /* Assets.xcassets in Resources */,
+				DB5B44E0F9D7001EFAD90210 /* download_all_images.py in Resources */,
+				3163128944CEF2E9FD9F057E /* download_commons.py in Resources */,
+				27C7B8EF50B2DD8A4F967F53 /* download_flags.py in Resources */,
+				7134DA32FE8FEF02F2FDEE1E /* download_images.py in Resources */,
+				AD53A58664D71108ADEBC491 /* download_missing.py in Resources */,
+				A0492EB40579E840972483EB /* download_pixabay.py in Resources */,
+				3AFB5FD02542150D772748C8 /* download_retry.py in Resources */,
+				A6A7F18EFEF42C6CFF219265 /* find_missing.py in Resources */,
+				AA7B75BE2823FF942C7E3B9E /* fix_ingredients.py in Resources */,
+				2A42B6873934A47157E2B7CC /* fix_ingredients_2.py in Resources */,
+				68645F8F3FC046FED7F6A498 /* fix_steps.py in Resources */,
+				E7321A5D4780452E3CD44C33 /* fix_steps2.py in Resources */,
+				B0C908F75FFFD9ED86E82594 /* fix_steps3.py in Resources */,
+				0767E34A00DE0094E85C23C8 /* fix_steps4.py in Resources */,
+				A40AB41247864D4F380A8B4F /* fix_steps5.py in Resources */,
+				CB24C573088787F79DE26844 /* fix_steps6.py in Resources */,
+				0B3F974B198BE9702C0029F7 /* generate_countries.py in Resources */,
+				DC802ED2E3EC3BBCB49B2388 /* generate_country_boundaries.py in Resources */,
+				F628E39D0A590CF8C6B96F96 /* inject_missing_countries.py in Resources */,
+				A5E6AB0132471A1585BC6C56 /* missing_countries.json in Resources */,
+				AF26860322CA398D8F896D60 /* reinject_countries.py in Resources */,
+				5ED81FFA0549C24913F385F9 /* test.jpg in Resources */,
+				4784FF0CE4484829C5B72BE8 /* update_recipes_tr.py in Resources */,
+				1358FECFC8404C4D3C15D2D6 /* wiki_images.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFAF97EE1FE5141839979A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831053D8CB1B522965B6933A /* ContentView.swift in Sources */,
+				3A95089AF4E24E6FF739C9FC /* Country.swift in Sources */,
+				1E05CBC369C4E91B2C0B2B81 /* CountryBoundaries.swift in Sources */,
+				60DD44BE3364D134948DE695 /* CountryData.swift in Sources */,
+				9196CC2AE326223EBFFB9902 /* FavoritesManager.swift in Sources */,
+				C7AE2EAEDF4C57CA5C5D4996 /* FavoritesView.swift in Sources */,
+				A26268329509AC647C35C8F9 /* GlobalOverlayGenerator.swift in Sources */,
+				8557A1DD1C939460B6EAA9AB /* GlobeScene.swift in Sources */,
+				F65305287B02AF54DB22BDC5 /* GlobeView.swift in Sources */,
+				FA5CC5BD590DE619E72CF22B /* GlobeViewController.swift in Sources */,
+				6BCDAEC4218B1983DAC1269E /* RecipeDetailView.swift in Sources */,
+				32CC22B7AE86C51EA680FEA5 /* SplashView.swift in Sources */,
+				C4CC23B061F577901357DA0E /* TasteWorldApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18D5805E9A25A9FE3A8E60C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = TasteWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tasteworld.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6DE9F22EA66794D6E89CCD7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = SF53CA29L5;
+				INFOPLIST_FILE = TasteWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tasteworld.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A236260495625F7152B08B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = SF53CA29L5;
+				INFOPLIST_FILE = TasteWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tasteworld.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D91739697FB53B0EB4A54DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = TasteWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tasteworld.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BE1DB39EF1572BA609EDF88 /* Build configuration list for PBXProject "TasteWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D91739697FB53B0EB4A54DD /* Debug */,
+				18D5805E9A25A9FE3A8E60C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F4E2FB150A687AED920377F8 /* Build configuration list for PBXNativeTarget "TasteWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A236260495625F7152B08B6 /* Debug */,
+				6DE9F22EA66794D6E89CCD7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5C8D4FB1D44F963ABBD2FB3 /* Project object */;
+}
