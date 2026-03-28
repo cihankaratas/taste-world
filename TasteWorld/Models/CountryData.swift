@@ -1499,7 +1499,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "taiwan_dish",
             name: "Beef Noodle Soup",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Taiwanese_khong_bah_png%2C_Tofu%2C_Milkfish_Skin_Soup.jpg/960px-Taiwanese_khong_bah_png%2C_Tofu%2C_Milkfish_Skin_Soup.jpg",
+            imageURL: "",
             description: "Baharatlı ve yoğun et sulu Tayvan eriştesi.",
             ingredients: ["Dana incik", "Buğday eriştesi", "Yıldız anason", "Zencefil", "Soya sosu"],
             steps: ["Etleri baharatla 3 saat haşlayın.", "Eriştelerle beraber derin kasede sıcak servis yapın."]
@@ -1514,7 +1514,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "brunei_dish",
             name: "Ambuyat",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Ambuyat_in_Bandar_Seri_Begawan_Brunei.jpg/960px-Ambuyat_in_Bandar_Seri_Begawan_Brunei.jpg",
+            imageURL: "",
             description: "Güney Asya ormanlarındaki sago palmiyesinden elde edilen jelatinimsi eşsiz lezzet.",
             ingredients: ["500 g Sago nişastası", "1 L Sıcak su", "Yerli acılı meyve sosu (Cacah)", "Izgara balık (yanında)"],
             steps: ["Sago tozunu bir kaseye dökün.", "Üzerine kaynar su döküp yapışkan, saydam ve kalın bir tutkal/jel kıvamı alana dek hızla çırpın.", "Bambu çubukları ile sararak özel acılı ve ekşili meyve dip sosuna (Cacah) banın ve çiğnemeden yutarak tüketmeye alışın."]
@@ -1529,7 +1529,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "slovenia_dish",
             name: "Potica",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Velika_no%C4%8D_-_jedila_hren_%C5%A1unka_pirhi_potica.jpg/960px-Velika_no%C4%8D_-_jedila_hren_%C5%A1unka_pirhi_potica.jpg",
+            imageURL: "",
             description: "Ceviz ve tarçınla doldurularak rulo halinde pişirilen geleneksel tatlı çörek.",
             ingredients: ["500 g un", "1 paket maya", "200 ml ılık süt", "300 g ezilmiş ceviz", "150 g şeker", "50 g tereyağı", "Tarçın"],
             steps: ["Un, maya ve süt ile yumuşak bir hamur yoğurun ve 1 saat mayalanmaya bırakın.", "Ceviz, şeker, tarçın ve eritilmiş tereyağını karıştırarak iç harcı hazırlayın.", "Hamuru incecik açıp harcı yayın ve sıkı bir rulo yapın.", "Kalıba yerleştirip 180 derece fırında 45 dakika kızarana dek pişirin."]
@@ -1544,7 +1544,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "slovakia_dish",
             name: "Bryndzové Halušky",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Bryndzov%C3%A9_halu%C5%A1ky_so_slaninou.jpg/960px-Bryndzov%C3%A9_halu%C5%A1ky_so_slaninou.jpg",
+            imageURL: "",
             description: "Patates hamurundan yapılan küçük gnocchi benzeri köftelerin, koyun peyniri ve pastırma ile harmanlandığı ikonik yemek.",
             ingredients: ["4 orta boy patates (rendelenmiş)", "200 g un", "150 g Bryndza (veya Feta) peyniri", "100 g tütsülenmiş domuz veya dana pastırması (çıtır)"],
             steps: ["Rendelenmiş patates ve unu karıştırarak yapışkan bir hamur elde edin.", "Hamurdan küçük parçalar kopararak kaynayan tuzlu suya atın. Su yüzeyine çıktıklarında pişmiş demektir.", "Pastırmaları tavada çıtırlaşana kadar kavurun.", "Halušky'yi peynirle karıştırın, üzerine çıtır pastırma ve yağını ekleyerek servis yapın."]
@@ -1559,7 +1559,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "eritrea_dish",
             name: "Zigni",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/5/58/Eritrean_Injera_with_stews.jpg",
+            imageURL: "",
             description: "Eritre'nin geleneksel, yoğun baharatlı ve acılı et güveci.",
             ingredients: ["500 g dana kuşbaşı eti", "2 büyük soğan (ince doğranmış)", "3 yemek kaşığı Berbere baharatı", "2 adet domates", "Sıvı yağ", "Tuz"],
             steps: ["Geniş bir tencerede soğanları yağsız olarak terletin, ardından yağı ekleyip karamelize olana kadar kavurun.", "Berbere baharatını ve doğranmış domatesleri ekleyip sos kıvamına getirin.", "Dana etlerini ilave edin ve kendi suyunu salıp çekene dek pişirin.", "Üzerini geçecek kadar su ekleyip, etler tamamen lif lif ayrılana dek kısık ateşte 90 dakika pişirin."]
@@ -1574,7 +1574,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "yemen_dish",
             name: "Saltah",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Rras_2013-07-06_09-35.jpg",
+            imageURL: "",
             description: "Kökeni Osmanlı'ya kadar uzanan, taş güveçte (haraqi) fokurdayarak kaynayan et suyu, sebze ve çemen otlu köpük ile servis edilen sulu yemek.",
             ingredients: ["1 litre koyu et suyu", "200 g kıyma", "2 adet patates", "1 adet domates", "1 yemek kaşığı Hawaej baharatı", "Hulba (çemen otu sosu)"],
             steps: ["Kıymayı, domates ve patatesi taş bir güveçte soteleyin.", "Tuz ve Hawaej baharatını ekleyerek karıştırın, eti mühürleyin.", "Zengin et suyunu ekleyin ve sebzeler ezilecek kıvama gelene dek yüksek ateşte fokurdatın.", "En üste çırpılmış çemen otu (Hulba) ekleyip henüz kaynarken sıcak lavaş eşliğinde servis edin."]
@@ -1589,7 +1589,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "antarctica_dish",
             name: "Hoosh (Pemmikana)",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Pemmican_ball.jpg/960px-Pemmican_ball.jpg",
+            imageURL: "",
             description: "Güney Kutbu kaşiflerinin vazgeçilmezi olan, kurutulmuş et, yağ ve pisküvi karışımından yapılan enerji bombası püre.",
             ingredients: ["200 g pemmican (kurutulmuş et ve yağ karışımı)", "4 adet kutup bisküvisi (hard-tack)", "2 su bardağı su", "Tuz", "Karabiber"],
             steps: ["Kurutulmuş etleri (pemmican) ve suyu kamp ocağındaki tencereye alın.", "Su kaynadıktan sonra iç yağı ve etlerin çözülmesini sağlayın.", "Sert kutup bisküvilerini elinizle ufak parçalara bölerek kaynayan püreye ilave edin.", "Bisküviler suyu çekip lapa kıvamına geldiğinde, karabiber ile tatlandırıp sıcak sıcak tüketin."]
@@ -1604,7 +1604,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "cyprus_dish",
             name: "Şeftali Kebabı",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/PA013341.JPG/960px-PA013341.JPG",
+            imageURL: "",
             description: "İncecik kuzu gömlek yağına sarılmış, taze maydanozlu kuzu veya dana kıymadan yapılan ızgara sosis.",
             ingredients: ["500 g kuzu kıyma", "1 adet kuzu gömleği (terp)", "1 büyük soğan (ince kıyım)", "Yarım demet maydanoz", "Tuz", "Karabiber"],
             steps: ["Kuzu gömleğini yumuşaması için ılık suda 10 dakika bekletin, ardından ufak kareler halinde kesin.", "Kıyma, çok ince kıyılmış soğan, maydanoz, tuz ve karabiberi vurarak iyice yoğurun.", "Harçtan silindirik köfteler yapıp her birini kuzu gömleği ile hava almayacak şekilde sarın.", "Kömür ateşinde veya ızgarada dışı çıtır, gömlek yağı tamamen eriyene dek çevirerek pişirin."]
@@ -1619,7 +1619,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "libya_dish",
             name: "Bazin",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Eating_Asida.JPG/960px-Eating_Asida.JPG",
+            imageURL: "",
             description: "Et ve domates soslu, geleneksel arpa unundan yapılan volkan görünümlü bir başyapıt.",
             ingredients: ["3 su bardağı arpa unu", "500 g kuzu pirzola", "2 yemek kaşığı salça", "1 adet soğan", "Yarım su bardağı zeytinyağı", "Sert haşlanmış yumurta (servis için)"],
             steps: ["Kuzu etini tencerede zeytinyağı ve soğanla kavurun, salçayı ekleyip kokusu çıkana dek pişirin.", "Sıcak su ekleyin ve etler yumuşayana dek güveç şeklinde kaynatın.", "Ayrı bir kapta su kaynatıp arpa ununu tel çırpıcı ile sürekli karıştırarak sert bir lapa (hamur) elde edene dek yoğurun.", "Hamuru büyük bir tabağın ortasına yarım küre şeklinde koyun. Etraftaki boşluğa kuzu etini, domates sosunu ve haşlanmış yumurtaları yerleştirin."]
@@ -1634,7 +1634,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "djibouti_dish",
             name: "Skoudehkaris",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Djibouti.svg/960px-Flag_of_Djibouti.svg.png",
+            imageURL: "",
             description: "Pirinç, kuzu eti ve Orta Doğu baharatlarının olağanüstü uyumu ile yapılan geleneksel bir pilav tabağı.",
             ingredients: ["500 g kemikli kuzu eti", "2 su bardağı basmati pirinci", "1 adet soğan", "2 diş sarımsak", "Yarım çay kaşığı kakule", "Yarım çay kaşığı tarçın"],
             steps: ["Kuzu etini tencereye alıp kahverengileşene kadar yüksek ateşte çevirin.", "İnce doğranmış soğan, sarımsak, kakule ve tarçını ekleyerek baharatların enfes kokusu çıkana kadar kavurun.", "Etlerin üzerini geçecek kadar su ilave edin ve etler pişene kadar 45 dakika haşlayın.", "Önceden ıslatılmış basmati pirincini tencereye alın. Pilav suyunu çekene kadar kapağı kapalı halde pişirip demlendirin."]
@@ -1649,7 +1649,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "uganda_dish",
             name: "Matoke ve Yer Fıstığı Sosu",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Roasted_beef_on_sticks_in_Kampala%2C_Uganda.JPG/960px-Roasted_beef_on_sticks_in_Kampala%2C_Uganda.JPG",
+            imageURL: "",
             description: "Buharda pişirilip püre haline getirilmiş yeşil muz yemeğinin, zengin fıstık sosuyla sunumu.",
             ingredients: ["5 adet olgunlaşmamış yeşil matoke muzu", "1 su bardağı şekersiz yer fıstığı ezmesi", "1 adet soğan", "1 adet domates", "2 yemek kaşığı sıvı yağ"],
             steps: ["Yeşil muzları dikkatlice soyun (ellerinizi hafifçe yağlayın). Tencerede haşlayarak veya muz yapraklarında buharda yumuşayana kadar pişirin.", "Yumuşayan muzları pürüzsüz ama yoğun bir püre haline getirin.", "Ayrı bir tavada soğan ve doğranmış domatesi sıvı yağda kavurun. Yer fıstığı ezmesini suyla seyrelterek tavaya ekleyin.", "Kısık ateşte sos koyulaşıp yağı üste çıkana kadar 10 dakika pişirin. Pürenin yanında sıcak servis yapın."]
@@ -1664,7 +1664,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "rwanda_dish",
             name: "Isombe",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Rwanda_fruits.jpg/960px-Rwanda_fruits.jpg",
+            imageURL: "",
             description: "Haşlanmış manyok (cassava) yapraklarının yoğun lezzetli bir güvecidir.",
             ingredients: ["500 g ince kıyılmış manyok veya ıspanak yaprağı", "2 yemek kaşığı fıstık ezmesi", "1 adet patlıcan (haşlanmış ve ezilmiş)", "1 adet ıspanaklı bulyon veya et suyu", "1 adet soğan"],
             steps: ["Manyok veya ıspanak yapraklarını tamamen çiğnemesi kolay ve yumuşak bir hal alana kadar yaklaşık 1 saat kaynamış suda haşlayın.", "Patlıcan ve soğanı ufak doğrayıp yapraklara ilave edin.", "Bir bardak suda açtığınız zengin fıstık ezmesini ve bulyonu tencereye katarak tüm malzemeyi entegre edin.", "15 dakika daha tüm aromalar geçene dek kaynatıp Afrika rüyası Ugali ile birlikte tüketin."]
@@ -1679,7 +1679,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "north_macedonia_dish",
             name: "Tavče Gravče",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/%D0%93%D1%80%D0%B0%D0%B2_%D0%B2%D0%BE_%D1%82%D0%B0%D0%B2%D0%B0%28%D1%82%D0%B0%D1%84%D1%87%D0%B5_%D0%B3%D1%80%D0%B0%D0%B2%D1%87%D0%B5%29_%283%29.jpg/960px-%D0%93%D1%80%D0%B0%D0%B2_%D0%B2%D0%BE_%D1%82%D0%B0%D0%B2%D0%B0%28%D1%82%D0%B0%D1%84%D1%87%D0%B5_%D0%B3%D1%80%D0%B0%D0%B2%D1%87%D0%B5%29_%283%29.jpg",
+            imageURL: "",
             description: "Güveçte fırınlanmış biberli ve kırmızı soğanlı beyaz fasulye.",
             ingredients: ["500 g beyaz fasulye (geceden ıslatılmış)", "2 adet iri kırmızı soğan", "2 tatlı kaşığı kırmızı toz biber", "2 yemek kaşığı sıvı yağ", "Tuz ve taze karabiber", "1 demet maydanoz"],
             steps: ["Geceden ıslatılmış beyaz fasulyeleri yumuşayana dek haşlayın ve suyunu hafifçe süzün.", "Kırmızı soğanları ince ince doğrayın ve yağda karamelize olana kadar kavurun. İçine bol kırmızı toz biber ve fasulyeleri ekleyip harmanlayın.", "Hazırlanan bu fasulye harcını bir toprak güvece (tavče) aktarın.", "Üstü nar gibi kızarıp suyu koyulaşana dek 180 derece fırında 30-40 dakika fırınlayarak sıcak servis yapın."]
@@ -1694,7 +1694,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "montenegro_dish",
             name: "Njeguški Pršut ile Kacamak",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/960px-Flag_of_Montenegro.svg.png",
+            imageURL: "",
             description: "Peynirli mısır irmiği püresinin (Kacamak), meşhur tütsülenmiş kuru etle sunumu.",
             ingredients: ["2 su bardağı mısır irmiği", "3 orta boy patates", "150 g kaymak veya taze peynir", "100 g ince dilimlenmiş Njeguški pršutu (veya pastırma)", "Tuz"],
             steps: ["Küp doğranmış patatesleri iyice haşlayın. Aynı suya yavaşça mısır irmiği ekleyip çırpın ve pürüzsüz bir püre yapın.", "Pürenin (Kacamak) içine taze kaymak ve peynir ilave ederek pürüzsüz bir şekilde erimesini sağlayın.", "Tütsülenmiş kurutulmuş eti (Pršut) dilimlerini ayrı bir tahtada hazırlayın.", "Sıcak mısır püresinin üzerine et dilimlerini koyarak ağır ve muazzam bir dağ yemeği elde edin."]
@@ -1709,7 +1709,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "kosovo_dish",
             name: "Flija",
-            imageURL: "https://flagcdn.com/w640/kv.png",
+            imageURL: "",
             description: "Sacda kat kat yapılan, dairesel kreplerarası kaymak harçlı şaheser.",
             ingredients: ["Hamur için: 500 g un, 3 su bardağı su, Tuz", "İç Harç için: 200 g taze kaymak", "150 g yoğurt", "1 yemek kaşığı tereyağı"],
             steps: ["Un, su ve tuz ile bildiğimiz sıvı krep hamuru tutun.", "Ayrı bir kasede kaymak, yoğurt ve eritilmiş tereyağını çırpın (bu ara malzeme olacak).", "Tereyağıyla ısıtılmış bir baca altına veya sac tava tabanına kepçeyle krep hamurunu yıldız motifleri şeklinde veya ince şeritlerle dökün. Altı kızarana kadar ısıtın.", "Üzerine yoğurtlu/kaymaklı sostan sürün, sonra bir kat daha hamur dökün. Bunu 2-3 saat boyunca kat kat yapıp dev bir milföy krep pastası olana kadar pişirin."]
@@ -1724,7 +1724,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "south_sudan_dish",
             name: "Kisra ve Bamya Güveci",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/6/69/Bowl_of_mandazi.jpg",
+            imageURL: "",
             description: "Sorgum unundan yapılan ultra ince ekmeğin fıstıklı bamya güvecine eşlik ettiği geleneksel yemek.",
             ingredients: ["1 su bardağı sorgum veya teff unu", "Yarım su bardağı buğday unu", "250 g bamya", "1 adet soğan", "1 su bardağı ezilmiş yer fıstığı", "Et bulyon"],
             steps: ["Sorgum unu, buğday unu ve suyu karıştırıp bir gece mayalandırın. Ardından sacda kağıt kadar ince krepler (Kisra) şeklinde pişirin.", "Geniş bir tencerede doğranmış soğanları kavurun, suyu ilave edip et bulyon atın.", "Doğranmış bamyaları ekleyip 10 dakika haşlayın. Pürüzsüz olması için iyice karıştırın.", "Yer fıstığı ezmesini ekleyip 5 dakika daha koyulaşana kadar pişirip Kisra ekmeğiyle yiyin."]
@@ -1739,7 +1739,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "western_sahara_dish",
             name: "Mreifisa",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/LocationWesternSahara.svg/960px-LocationWesternSahara.svg.png",
+            imageURL: "",
             description: "Sahra çölü göçebelerinin taş fırınlarda hazırladıkları tavşan veya kuzu etli güveç.",
             ingredients: ["400 g kuzu veya deve eti", "1 adet mayasız yassı ekmek", "1 büyük soğan", "Zeytinyağı", "Zencefil tozu"],
             steps: ["Eti iri bloklar halinde kesip zeytinyağında mühürleyin, soğan ve zencefil tozu ilave edin.", "Tencereye etin üstünü kapatacak kadar su ekleyip 2 saat boyunca kısık ateşte pişirin.", "Çölde hazırlanan kalın mayasız ekmeği ufak parçalara (lokmalık) koparın ve servis kasesinin dibine yerleştirin.", "Uzun süre pişen etli sıvıyı bu ekmeklerin üzerine kepçeyle aktararak yemeğin dinlenmesini sağlayın."]
@@ -1754,7 +1754,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "papua_new_guinea_dish",
             name: "Mumu",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Sago_pancake_Papua_New_Guinea.jpg/960px-Sago_pancake_Papua_New_Guinea.jpg",
+            imageURL: "",
             description: "Toprak fırın kullanılarak ağır ağır pişirilen, Papua Yeni Gine'nin geleneksel kutlama yemeği.",
             ingredients: ["1 kg domuz veya tavuk eti, iri parçalanmış", "500 g tatlı patates (kaukau), soyulmuş ve doğranmış", "2 adet muz (plantain), kalın dilimlenmiş", "1 demet ıspanak veya taro yaprağı", "400 ml hindistan cevizi sütü", "1 bütün ananas, küp doğranmış", "Geleneksel muz yaprakları (sarmak için)"],
             steps: ["Mutfak uyarlaması için fırınınızı 160 dereceye ısıtın ve büyük bir güveç tenceresi hazırlayın.", "Güveç tenceresinin tabanını geniş muz yaprakları ile döşeyin. Üzerine sırasıyla tatlı patates ve muz (plantain) dilimlerini yerleştirin.", "Et parçalarını meyvelerin üzerine dizin. Küp doğranmış ananasları ve ıspanak yapraklarını etlerin etrafına yayın.", "Bol miktarda hindistan cevizi sütünü tüm malzemelerin üzerine gezdirin. Tuz ilave edin.", "Muz yapraklarını sıkıca kapatarak malzemelerin kendi buharında pişmesini sağlayın. Fırında yaklaşık 2 ila 3 saat pişirin."]
@@ -1769,7 +1769,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "democratic_republic_of_the_congo_dish",
             name: "Saka-Saka (Pondu)",
-            imageURL: "https://flagcdn.com/w640/cd.png",
+            imageURL: "",
             description: "Manyok yaprakları ve palmiye yağının füme balıkla buluştuğu Orta Afrika başyapıtı.",
             ingredients: ["1 kg Manyok yaprağı", "Palmiye yağı", "Füme tatlısu balığı", "Sarımsak ve soğan"],
             steps: ["Manyok yapraklarını yumuşayana dek iki saat haşlayıp ezin.", "Füme balık, soğan ve palmiye yağı ile harmanlayıp yoğun bir sote kıvamına gelene dek pişirin."]
@@ -1784,7 +1784,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "somalia_dish",
             name: "Suqaar",
-            imageURL: "https://flagcdn.com/w640/so.png",
+            imageURL: "",
             description: "Hızlıca sotelenmiş, minik küp et parçalarından oluşan meşhur Somali et sotesi.",
             ingredients: ["500 g dana eti (çok küçük küp doğranmış)", "1 soğan", "1 havuç", "1 yeşil biber", "1 çay kaşığı Xawaash (Somali baharat karışımı)"],
             steps: ["Dana etlerini sıvı yağda yüksek ateşte hizlica kendi suyunu salıp çekene dek kavurun.", "Havuç ve yeşil/kırmızı biberleri ince zarlar halinde doğrayıp ete ilave edin.", "Mükemmel aromatik Xawaash baharatını serpip soğanları karamelize edene dek 10 dk soteleyin.", "Yanına Somali krebi olan Sabaayad ya da pirinç pilavı ile servis tabağına alın."]
@@ -1799,7 +1799,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "sudan_dish",
             name: "Ful Medames",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Tepeln%C3%A1_%C3%BAprava_j%C3%ADdla_%28S%C3%BAd%C3%A1n%29_001.jpg/960px-Tepeln%C3%A1_%C3%BAprava_j%C3%ADdla_%28S%C3%BAd%C3%A1n%29_001.jpg",
+            imageURL: "",
             description: "Geleneksel Sudan sofra kültürü: susam yağıyla taçlandırılmış fava fasulyesi.",
             ingredients: ["2 su bardağı fava (bakla)", "1 büyük soğan", "3 yemek kaşığı susam yağı", "Kimyon", "Yarım limon", "Goraasa (Sudan mayasız ekmeği)"],
             steps: ["Geceden ıslağınız fava fasulyelerini tamamen ezilecek kadar yumuşayana dek haşlayın.", "Fasulyeleri ezip kimyon, limon suyu ve bir tutam tuzla tatlandırın.", "Doğranmış soğan ve taze maydanozu üzerine serpin.", "Zengin susam yağını en üstte gezdirin, taze ekmekle (Goraasa) doyasıya tüketin."]
@@ -1814,7 +1814,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "chad_dish",
             name: "Daraba",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Kissar_%C3%A0_base_du_mil.jpg/960px-Kissar_%C3%A0_base_du_mil.jpg",
+            imageURL: "",
             description: "Çad'a özgü fıstık ezmesi, bamya ve yeşilliklerin buluştuğu zengin bitkisel çorba.",
             ingredients: ["1 su bardağı taze bamya", "Yarım su bardağı fıstık ezmesi", "2 adet domates", "Yarım su bardağı ıspanak", "Tatlı patates"],
             steps: ["Tatlı patatesi ve bamyayı küp doğrayarak suda yumuşayana dek haşlayın.", "Soğan ve domatesi ekleyerek hafifçe ezerek kaynatmaya devam edin.", "Fıstık ezmesini sosa kalınlık katması için ekleyin. Topaklanmaması için sıcak suyla önceden açın.", "İnce kıyılmış ıspanakları ekleyerek 10 dakika sonra ocaktan alın."]
@@ -1829,7 +1829,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "the_bahamas_dish",
             name: "Conch Salad",
-            imageURL: "https://flagcdn.com/w640/bs.png",
+            imageURL: "",
             description: "Okyanus esintisi: deniz salyangozu ceviche'si.",
             ingredients: ["Taze deniz salyangozu (Conch)", "Lime suyu", "Habanero acı biber", "Yeşil dolmalık biber"],
             steps: ["Eti küp küp ufak doğrayıp narenciye yağmuruna tutun.", "Sebzelerle karıştırıp çiğ olarak tüketmek için buzda marine edin."]
@@ -1844,7 +1844,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "falkland_islands_dish",
             name: "Smoked Mutton",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_Falkland_Islands.svg/960px-Flag_of_the_Falkland_Islands.svg.png",
+            imageURL: "",
             description: "Zengin dağ koyununun falkland adasında çalıyla tütsüsü.",
             ingredients: ["Koyun budu", "Diddle-ode çalı reçeli"],
             steps: ["Koyunu reçelle saatlerce marine edip dumanlı fırına sürün."]
@@ -1859,7 +1859,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "greenland_dish",
             name: "Suaasat",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Phoeca_groenlandica_piece_of_meat_upernavik_2007-06-26.JPG/960px-Phoeca_groenlandica_piece_of_meat_upernavik_2007-06-26.JPG",
+            imageURL: "",
             description: "Yabani kutup bölgesi: arpa ve soğanlı deniz-fok veya geyik çorbası.",
             ingredients: ["Geyik veya dana eti", "1 bardak arpa (inci)", "Karabiber", "Soğan"],
             steps: ["Yüksek oranda et yağını sıcak suda şoklayın, soğan ekleyin.", "Arpanın lapa kıvamına getirdiği suyu etlerle kapalı tencere usulü buza karşı sıcak çorba halinde dökün."]
@@ -1874,7 +1874,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "french_southern_and_antarctic_lands_dish",
             name: "Légine Australe au Beurre (Fransız Usulü Morina)",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Belgica1web.jpg/960px-Belgica1web.jpg",
+            imageURL: "",
             description: "Güney Okyanusunun buz gibi sularından yakalanan Diş Balığının tereyağlı mühürlenmesi.",
             ingredients: ["2 kalın dilim Patagonya Morina Balığı", "50 g Fransız tereyağı", "Yarım limonun suyu", "Biberiye", "Deniz tuzu", "Bebek patates"],
             steps: ["Buz gibi suların ipeksi balığını tamamen kurulayın ve biberle tatlandırın.", "Döküm tavayı yüksek ateşte ısıtıp balığın iki tarafını da tereyağında 2'şer dakika mühürleyin.", "Eriyip köpüren aromalı yapı bir kaşıkla sürekli olarak balıkların üzerine dökerek pişirin.", "Limon suyu gezdirerek fırınlanmış patates yatağında servis edin."]
@@ -1889,7 +1889,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "east_timor_dish",
             name: "Ikan Sabuko",
-            imageURL: "https://flagcdn.com/w640/tl.png",
+            imageURL: "",
             description: "Taze Pasifik balığının demirhindi ve baharatlarla marine edilip muz yaprağına sarılıp ızgara yapılması.",
             ingredients: ["1 bütün taze okyanus balığı (snapper)", "Demirhindi ezmesi (Tamarind)", "1 tatlı kaşığı zerdeçal", "Acı biber", "Fesleğen", "Sarmak için muz yaprakları"],
             steps: ["Demirhindi ezmesi, zerdeçal ve ezilmiş acı biberlerle kalın bir sosa ulaşın.", "Balığın içine ve dışına bu aromatik sosu 3 diş sarımsakla birlikte masaj yaparak yedirin.", "Balığı muz yaprağının içine koyup paket halinde çok sıkı bir rulo yapın.", "Köz ateşinde her iki tarafını 10 dakika muz yapraklarıyla tütsüleyerek buharda pişmesini sağlayın."]
@@ -1904,7 +1904,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "lesotho_dish",
             name: "Chakalaka & Pap",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/f/fd/The_National_Archives_UK_-_CO_1069-209-68.jpg",
+            imageURL: "",
             description: "Yoğun baharatlı sebze sotesinin (Chakalaka), mısır unu lapası (Pap) eşliğinde servis edildiği dağ krallığı lezzeti.",
             ingredients: ["2 su bardağı mısır unu (Pap için)", "2 havuç", "1 kırmızı biber", "1 teneke pişmiş fasulye (Baked beans)", "Köri tozu"],
             steps: ["Derin suda mısır ununu azar azar döküp sürekli çırparak lapa haline getirin ve 20 dk demlendirin.", "Havuç ve biberleri zar gibi doğrayarak kalın tabanlı tavada yağ ile karamelize kavurun.", "Pişmiş kuru fasulyeleri ve bolca köri baharatını tavadaki sebzeye ekleyerek 10 dakika kaynatıp sos (Chakalaka) oluşturun.", "Kalın mısır lapasını kaselere tepeleme alın, üzerine acılı ve soslu Chakalaka'yı bolca dökün."]
@@ -1919,7 +1919,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "nicaragua_dish",
             name: "Gallo Pinto",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/VIGORON.JPG/960px-VIGORON.JPG",
+            imageURL: "",
             description: "Kırmızı fasulye ve pirincin, soğanlı ve özel Salsa Lizano soslu destansı Karayip karışımı.",
             ingredients: ["2 su bardağı pişmiş kırmızı iri fasulye", "2 su bardağı ertesi günden kalma beyaz pirinç pilavı", "1 soğan", "Salsa Lizano (özel baharatlı sos)", "Kişniş"],
             steps: ["Geniş tavada soğanı pembeleşene kadar soteleyin.", "Kendi yoğun koyu suyuyla beraber haşlanmış kırmızı fasulyeleri tavaya ilave edin.", "Bir gün önceden kalma pirinç pilavını ekleyip fasulye suyu pirinçlere kırmızımsı/siyah bir renk verene dek sürekli kavurun.", "Tatlı Salsa Lizano sosunu gezdirip üzerine ince kıyılmış taze kişniş serperek kahvaltı veya akşam yemeği olarak tüketin."]
@@ -1934,7 +1934,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "el_salvador_dish",
             name: "Pupusa",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/f/f8/Desayuno_Salvadore%C3%B1o.png",
+            imageURL: "",
             description: "Mısır hamuruyla harmanlanıp içine peynir, kıyma suyu ve fasulye doldurulan ülkenin efsanevi gözlemesi.",
             ingredients: ["Mısır unu (Masa Harina)", "Ilık su", "Eriyen peynir (Oaxaca veya Mozzarella)", "Kızarmış fasulye püresi (Refried beans)", "Chicharron (domuz/dana kavurma parçaları)"],
             steps: ["Mısır unu ve suyu yoğurup nemli yumuşak kalın bir hamur (Masa) üretin.", "Hamurdan avuç içi kadar koparıp ortasını çanak şeklinde açın. Peynir, fasulye ve eti doldurun.", "Hamuru geri kapatıp elinizle düz bir tabak biçiminde ezerek kalın bir yassı krep haline getirin.", "Hiç yağ konmamış kuru döküm sac tavada her iki tarafını eşit şekilde siyah lekeler alana kadar pişirip Curtido salatasıyla (lahana turşusu) yiyin."]
@@ -1949,7 +1949,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "belize_dish",
             name: "Stew Chicken & Rice",
-            imageURL: "https://flagcdn.com/w640/bz.png",
+            imageURL: "",
             description: "Kahverengi şeker esintisi ile tavuk pirinç fasulye üçlüsü.",
             ingredients: ["Tavuk", "Red recado", "Fasulye", "Pirinç"],
             steps: ["Recado ile piliç marine edilir, şeker kavrularak karamel sosunda 40 dk suyunu kaynatır."]
@@ -1964,7 +1964,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "guyana_dish",
             name: "Pepperpot",
-            imageURL: "https://flagcdn.com/w640/gy.png",
+            imageURL: "",
             description: "Güney Amerika yerlileri (Arawak) mirası; Manyok kökü özütü (cassareep) ile kapkara yapılan tatlı acılı sığır yahnisi.",
             ingredients: ["1 kg kemikli sığır veya öküz eti", "Yarım su bardağı Cassareep (Koyu manyok özütü)", "2 adet piri-piri acı biber", "Tarçın çubuğu", "Karanfil", "Pamuk gibi taze Guyana ekmeği"],
             steps: ["Eti yıkayıp kalın tabanlı dev çömleğe yerleştirin.", "İçine zift rengindeki tatlı-acı Cassareep sosunu, acı biberleri, karanfil ve çubuk tarçını ekleyin.", "Kısık odun ateşinde veya yavaş fırında en az 3 saat fokurdatarak sosun tamamen kapkara ve efsanevi bir şuruba dönüşmesini bekleyin.", "Günler geçtikçe tadı güzelleşen bu destansı ziyafeti taze ekmek banarak yiyin."]
@@ -1979,7 +1979,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "suriname_dish",
             name: "Pom",
-            imageURL: "https://flagcdn.com/w640/sr.png",
+            imageURL: "",
             description: "Hollanda ve Endonezya rüzgarları taşıyan; pomtayer kökü, turunçgiller ve tavuğun birleştiği dev cips fırını tabağı.",
             ingredients: ["1 kg rendelenmiş Pomtayer (ya da iri Taro kökü)", "500 g kemikli tavuk parçaları", "Yarım çay bardağı narenciye suyu (turunç/mandalina)", "1 domates", "Kimyon ve soğan"],
             steps: ["Tavukları, asidik turunç narenciye yağmuru ve kimyon esintisiyle domatesli sulu bir sote yapıp kızartın.", "Pomtayer köklerini tamamen rendeleyin, sulu tavuk yahnisiyle derin bir kapta hiç boşluk bırakmadan yoğurun.", "Geniş derin bir fırın kabına yayıp üstüne bol tereyağı atın.", "Fırında üstü kaya gibi kahverengi bir cips haline gelene dek 1.5 saat üstü açık pişirin."]
@@ -1994,7 +1994,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "puerto_rico_dish",
             name: "Mofongo",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/0/03/Arrozcongandules2.jpg",
+            imageURL: "",
             description: "Sarımsak gömülü kızarmış yeşil muz plantain havana dövüşü.",
             ingredients: ["Yeşil plantain (muz)", "Sarımsak karanfilleri tonla", "Chicharron (domuz/dana krakeri yağı)", "Tuzlu et suyu"],
             steps: ["Muzları kızgın yağda dilimce bronzlaşana dek şoklayın.", "Derin tahta havana doldurup sıcakken üzerine çıtır dana cızbız yağı ve sarımsaklarla var gücünüzle macunlaşana kadar vurun.", "Kubbe şeklinde fırlatıp kaseye oturtun. Üstüne karides yahni dökün."]
@@ -2009,7 +2009,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "zimbabwe_dish",
             name: "Sadza ve Yabani Ispanak",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/960px-Flag_of_Zimbabwe.svg.png",
+            imageURL: "",
             description: "Yarım kıta afrika'nın enerjisi bembeyaz kaya gibi kalın mısır unu sadzası.",
             ingredients: ["Öğütülmüş beyaz Mısır unu (Mealiel meal)", "Su", "Yeşillik (çimdik)", "Bazen sığır kavurması"],
             steps: ["Mısır ununu yoğun koyu fokurdayan suda durmaksızın çırparak püre halini geçirtip lapa bir kaya kıvamına ulaştırın.", "Sağ avuca sıcak sıcak alarak yuvarlayıp, ortasına parmağınızı bastırıp et suyunun veya ıspanak suyunun küveti haline getirin."]
@@ -2024,7 +2024,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "botswana_dish",
             name: "Seswaa",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/20200207193241_IMG_7285.jpg/960px-20200207193241_IMG_7285.jpg",
+            imageURL: "",
             description: "Düğünlerin ve törenlerin baştacı; iri kaya tuzuyla uzun süre haşlanıp tahta tokmağıyla sümüksü dövülen sığır.",
             ingredients: ["1.5 kg kaslı, sinirli sığır eti (veya keçi eti)", "Sadece 3 yemek kaşığı iri denizkabağı tuzu", "Bol Su"],
             steps: ["Geniş döküm veya demir tencerede eti sadece su ve kalın tuz eşliğinde kapalı kapakta 4-5 saat yüksek ısı eritişiyle yavaşlatın.", "Su neredeyse bitecek, fakat et henüz dağılmayacak; o an eti tencereden tahta bir çanağa alın.", "Sağlam ahşap havan tokmağıyla etleri lif lif sakızlaşana ve tamamen ufak şeritlere ayrılana dek eze eze dövün.", "Sımsıcak saf et aromasını hissedecek şekilde beyaz Pap yanına doldurup yiyin."]
@@ -2039,7 +2039,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "namibia_dish",
             name: "Kapana",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Grilled_game.JPG/960px-Grilled_game.JPG",
+            imageURL: "",
             description: "Tuz, chilili ve Afrika biberiyle sarsılmış anlık barbekü sokak lezzeti sığır şiş.",
             ingredients: ["Zar atılmış kaliteli sığır veya oy kümesi", "Mangal kömürü", "Kapana spice (kırmızı biber, fıstık tozu)", "Taze Salsa"],
             steps: ["Etleri ateşin hemen üstünde hiç marine etmeden şok alevle pişirin.", "Tabağa alır almaz elinizle devasa bir spice patlaması yapıp salsa ile katlayıp hüpletin."]
@@ -2054,7 +2054,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "mali_dish",
             name: "Tigadegena",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Jollof_rice_with_vegetable.jpg/960px-Jollof_rice_with_vegetable.jpg",
+            imageURL: "",
             description: "Zengin ve çok doyurucu bir diğer fıstık ezmeli Batı Afrika harikası, ancak daha dumanlı sığır versiyonu.",
             ingredients: ["Sığır eti", "Közlenmiş domatesler", "Yer fıstığı", "Manyok kökü"],
             steps: ["Et ve sebzeleri mühürleyerek kavurun.", "Köz sebze ve yer fıstığı ile saatlerce haşlayın."]
@@ -2069,7 +2069,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "mauritania_dish",
             name: "Thieboudienne (Cheb u Jin)",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/CouscousDromadaire.jpg/960px-CouscousDromadaire.jpg",
+            imageURL: "",
             description: "Senegal ortak kültürünün enfes dehlizinde; parçalanmamış bütün kurutulmuş balık asitli pirinç tavası.",
             ingredients: ["Taze veya kurutulmuş Atlantik balığı", "Kırık pirinç (jasmine benzeri)", "Domates püresi", "Havuç ve biber", "Tamarind asidi"],
             steps: ["Balıkların içini sarımsak, maydanoz, biber ezmesiyle harçlayıp tam olarak yağda şoklayıp derinlemesine kızartın.", "Fokurdayan domates, tamarind ve havuçlu yoğun sosun içine tüm balığı batırıp suyu aromatize edin, ardından sebzelerle balığı kenara alın.", "O muhteşem umami dolgulu asitli balık suyuna çiğ pirinçleri ekleyerek çekene kadar demlendiriverin.", "Kocaman tepsiye kızıl pirinci yayıp, merkeze balığı oturtun. Efsane bir şölen!"]
@@ -2084,7 +2084,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "benin_dish",
             name: "Kuli-Kuli & Fufu",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Ab_food_06.jpg/960px-Ab_food_06.jpg",
+            imageURL: "",
             description: "Fıstık yağından sıkılarak yapılan çıtır kuli-kuli rulolarının doyurucu patates-manyok püresi Fufu ile tadımı.",
             ingredients: ["Kavrulmuş yer fıstığı ezmesi (yağı çekilmiş)", "Tatlı patates veya manyok unu (Fufu için)", "Acı kırmızı kurutulmuş biber", "Tuz"],
             steps: ["Yer fıstığını kavurun. Tüm yağını dışarı atana dek çok güçlü bir pres veya sıkma bezinde sıkarak fıstık ununu ayırın.", "Yağsız fıstık ezmesini topçuk veya sosis ruloları şekline getirin; tamamen kuruması için güneşe atın. Bunlar çıtır Kuli-kuli cipsleri olacak.", "Tencerede suyu yoğun fufu unuyla hızla karıştırarak esneyebilen sakız kütlesine (fufu) çevirin.", "Fufuyu tabağa top yapıp, etrafına çıtır Kuli-kuli dizip çorbaya banarak yiyin."]
@@ -2099,7 +2099,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "niger_dish",
             name: "Jerma Fasulye Yahnisi (Djerma Stew)",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/LocationNiger.svg/960px-LocationNiger.svg.png",
+            imageURL: "",
             description: "Pirinç, kızarmış et, fıstık sosu ve siyah gözlü kara fasulyenin uzun saatler kucaklaşması.",
             ingredients: ["200 g siyah gözlü fasulye (börülce)", "300 g kuzu eti", "3 yemek kaşığı pirinç", "Yer fıstığı suyu", "Et bulyon"],
             steps: ["Koyun veya kuzu etlerini kendi ateşinde mühürleyin. Suyunu verince saatlerce kaynaması için börülceleri ilave edin.", "Börülce kabukları açılınca nişasta salınımı için bir avuç kırık pirinci sadece bağlayıcı görev yapması için tencereye fırlatın.", "Suyu çekerken yer fıstığı şerbetini de ekleyin.", "Baharatlar zenginleşince çorbadan ziyade koyu kremamsı harika bir yahni olarak servis yapın."]
@@ -2114,7 +2114,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "cameroon_dish",
             name: "Ndolé",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/960px-Flag_of_Cameroon.svg.png",
+            imageURL: "",
             description: "Kamerun’un acı yapraklı (bitterleaf), ezilmiş yer fıstığı, et ve kurutulmuş ırmak karidesli koyu milli rengi.",
             ingredients: ["2 su bardağı haşlanmış acı yaprak (ndolé yaprağı veya alternatifi pazı)", "Yarım kg suda inceltilmiş fıstık püresi", "250 g kurutulmuş öğütülmüş karides (crayfish)", "Dana eti", "Sarılan bitkisel plantain muz"],
             steps: ["Acı yaprakların acılığını iyice çıkartmak için karbonatlı suda 3 kez haşlayıp sıkarak durulayın.", "Kavrulmuş fıstıklardan, sarımsak ve zencefilden pürüzsüz yoğun bir krema harcı elde edip ocakta Dana etiyle fokurdatın.", "Kaynayan fıstıklı yahniye devasa toz karides kumu ekleyip yemeği deniz/kara asimetrisine gömün.", "Haşlanmış Ndolé yapraklarını da ekleyip sos iyice siyah-yeşil arası kıvam aldığında sarı kızarmış plantain muzuyla daldırın."]
@@ -2129,7 +2129,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "togo_dish",
             name: "Djenkoume (Togo Kırmızı Püresi)",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Lunch_vendor.jpg/960px-Lunch_vendor.jpg",
+            imageURL: "",
             description: "Mısır unu, palmiye yağı, yoğun domates ve tavuk suyunun püre olmuş kan kırmızısı topağı.",
             ingredients: ["1 kg organik tavuk parçaları", "Mısır unu", "Saf Kırmızı Palmiye Yağı", "2 adet soğan ve rendelenmiş zencefil", "Domates salçası"],
             steps: ["Tavuğu palmiye yağında kavurup, zencefil, domates, soğan ile şahane kırmızı bir et suyu olana dek pişmesini sağlayın.", "Tavukları tencerenin içinden çıkartarak ızgaraya dizip derisini çıtırlaştırın.", "Kalan süzme kırmızı domatesli tavuk suyunun içine mısır ununu dökerek karıştırın ve katı (kırmızı renkli) Djenkoume püresi oluşturun.", "Tabakta kırmızı püre topu ve yanına ızgara tavuk budu eşliğinde mükemmel Afrika öğünü sunar."]
@@ -2144,7 +2144,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "ivory_coast_dish",
             name: "Garba",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/960px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png",
+            imageURL: "",
             description: "Sokakların vazgeçilmezi; yağda marine edilmiş çiğ soğan kuleli ve manyok unlu (Attiéké) kızarmış ton balığı.",
             ingredients: ["Fermente edilmiş suda pişmiş manyok kuskusu (Attiéke)", "1 adet kalın Ton Balığı (dondurulmuş ya da taze)", "1 su bardağı küp doğranmış çiğ soğan", "Tuzlu çeşni (Jumbo küp)", "Limon suyu ve sıvıyağ"],
             steps: ["Ton balığı filetosunu (veya kalın kesimini) unlayıp dev tavalarda bol derinde siyaha dönük kızarana dek muhteşemce mühürleyin.", "Manyok ezilmiş Attiéké'yi tabana avuç avuç doldurun. Üzerine çıtır siyah ton balığını yatırın.", "Ton balığını kızarttığınız kızgın kahverengi okyanus yağından Attiéké'nin (kuskusun) üzerine 3-4 kepçe atın.", "Acı biber limonuyla ezilmiş taze ince soğan küplerini en tepesine tepeleme kule yapıp parmaklarınızla harmanlayarak hüpletin."]
@@ -2159,7 +2159,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "guinea_dish",
             name: "Poulet Yassa",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/LocationGuinea.svg/960px-LocationGuinea.svg.png",
+            imageURL: "",
             description: "Limon, hardal ve soğan asidinde bir gece yatan, sonra ateşte kavrulan Batı Afrika'nın efsanevi sarı soğan tavuğu.",
             ingredients: ["1 tam Tavuk (Parçalı)", "1 kilogram Soğan (bol miktarda olmalı)", "5 dolu yemek kaşığı Hardal (Dijon önerilir)", "2 limon taze suyu", "Habanero acı biberi"],
             steps: ["Tavuk parçalarını, halka halka doğranmış bir kilo soğanı, bol narenciye (limon) suyunu, sarımsağı ve hardalı kapaklı kasede bir gece dinlendirin.", "Tavukları soğandan sıyırıp alarak sadece kendilerini ızgarada veya tavada yüksek basınçla mühürleyin.", "Daha sonra arta kalan hardallı asidik soğan marinasyonunu 20 dk sosun kendisi karamelize sarıya dönene dek sıvıyağda öldürün.", "Izgara tavukları harika soğanlara ekleyip 10 dk daha tencerede demlendirin ve pofuduk pirinç üzerinde muazzam Yassa harmanını yayın."]
@@ -2174,7 +2174,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "guinea_bissau_dish",
             name: "Gine-Bissau Jollof Ekstresi",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Location_Guinea_Bissau_AU_Africa.svg/960px-Location_Guinea_Bissau_AU_Africa.svg.png",
+            imageURL: "",
             description: "Güçlü domates, palmiye yağı, isli balık, tavuk ve pirincin tepeleme tek tencere mucizesi: Batı Afrika'nın kızıl pirinci.",
             ingredients: ["Uzun taneli Parboiled Pirinç", "4 adet olgun domates (blenderlanmış)", "1 baş sarımsak, zencefil, kırmızı kapya biber tabağı", "Tavuk suyu", "Habanero"],
             steps: ["Bitkisel yağda domates salçasını adeta asidini yok edene dek iyice karartıp kuruyana dek kavurun.", "Ev yapımı kapya biberli, soğan ve zencefilli blender pürenizi döküp fokurdattıktan sonra etin tam aromasını salın.", "Tavuk suyunu döküp içine hiç yıkanmamış parboiled pirinçleri atın.", "Tahta kaşıkla hizalayın. Tencerenin ağzına alüminyum sererek hiç buhar kaçırmadan 40 dk fırın gibi demleyip dumanlı Jollof elde edin."]
@@ -2189,7 +2189,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "liberia_dish",
             name: "Jollof Rice (Liberya Stili)",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Beachside_Barbeque_%286831739276%29.jpg/960px-Beachside_Barbeque_%286831739276%29.jpg",
+            imageURL: "",
             description: "Yengeç eti, kıyma, sucuk sosis ve tavuğun bir arada piştiği partilerin kraliçesi Jollof pirinci.",
             ingredients: ["Parboiled pirinç", "150 g sığır eti", "150 g tütsülü sosis", "Domates/Soğan püresi", "Tavuk Suyu"],
             steps: ["Et ve sosisleri mühürleyin. Yağlı domates püresini katın.", "Pirinci ekleyerek, fokurdayan kırmızı yahnide tam suyu çekip tabanı (Tato) hafif yanık ve çıtır olana dek pişirin.", "Altın sarısı plantain muz dilimleriyle şovu bitirin."]
@@ -2204,7 +2204,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "sierra_leone_dish",
             name: "Cassava Leaves Stew (Manyok Yahnisi)",
-            imageURL: "https://flagcdn.com/w640/sl.png",
+            imageURL: "",
             description: "Püre haline gelmiş koyu yeşil manyok yapraklarının, palmiye yağı ve fıstık ezmesi ile deniz ürünlü harmanı.",
             ingredients: ["Öğütülmüş Manyok yaprakları", "Sığır eti ve Tütsülenmiş balık", "Kırmızı palmiye yağı", "Yer Fıstığı Mincik (Öğütülmüş)"],
             steps: ["Et ve isli balıkları güzelce haşlanmaya dairesel şekilde bırakın.", "Suya ince kıyım manyok yaprağı püresini, fıstığı ekleyip 2 saat fokurdatın.", "Bol palmiye yağı (kan kırmızısı yağı) ilave edip 30 dk suyu çekmesini izleyerek pirinçle buluşturun."]
@@ -2219,7 +2219,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "burkina_faso_dish",
             name: "Riz Gras (Yağlı Pirinç)",
-            imageURL: "https://flagcdn.com/w640/bf.png",
+            imageURL: "",
             description: "Tavuk veya koyunun derin et sularıyla bütün sebzelerle mühürlenmiş Burkina Faso pirinci.",
             ingredients: ["Sığır veya Kuzu eti", "Pirinç", "Taze fesleğen ve Biber", "Domates Salçası"],
             steps: ["Eti suyu ve yağı ile kızartıp sebzeleri salça ile haşlayın.", "Tüm sebze aromalı suyun üzerine taze pirinç dökerek sadece pirincin o aromayı kusursuz bir kalkan gibi emmesini sağlayın."]
@@ -2234,7 +2234,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "central_african_republic_dish",
             name: "Poulet Nyembwe (Moambe Tavuk Oyunu)",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Fufu.jpg/960px-Fufu.jpg",
+            imageURL: "",
             description: "C.A.R. mutfağının baş aktörü, Afrika palmiye somunu ezmesi suyunda kavrulan yabanisi tavuk.",
             ingredients: ["Tavuk Gövdesi", "Taze Palmiye cevizi harcı (Moambe)", "Soğan", "Okra (Bamya)"],
             steps: ["Tavuğu iyice marineleyip yağ ile derisini kızartın.", "Palmiye cevizinden çıkarılan fıstığımsı kalın zengin tereyağlı kremsi yapıyı tencereye döküp bamyalarla tavuğun üzerini sıvayın.", "Saatlerce yoğun bir sarı krema fırtınasıyla fufu eşliğine doğrayın."]
@@ -2249,7 +2249,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "republic_of_the_congo_dish",
             name: "Saka-Saka (Manyok Yaprakları Sotesi)",
-            imageURL: "https://flagcdn.com/w640/cg.png",
+            imageURL: "",
             description: "Kongo Havzasının geleneksel ana öğünü; ezilmiş yaprakların bütün sardalya ile palmiye şerbetli sotesi.",
             ingredients: ["1 kilo Manyok (saka) yaprakları", "Palmiye yağı", "Soğan", "Füme balık (Sardalya kurusu)"],
             steps: ["Kaynar suda 2 saat boyunca acı püremsi manyok yapraklarını lifleri gidene dek vurun.", "Eşsiz füme aroması için içine sardalyayı didikleyin. Bol soğanlı palmiye asidinde pişirip servis edin."]
@@ -2264,7 +2264,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "gabon_dish",
             name: "Poulet Nyembwe (Hurma Fıstığı Tavuğu)",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/LocationGabon.svg/960px-LocationGabon.svg.png",
+            imageURL: "",
             description: "Afrika ulusal Gabon yemeği, kuzu veya tavuğun efsane taze palmiye tohumu püresi asidinde kavurması.",
             ingredients: ["Kümes hayvanı", "Palmiye püresi", "Tuz"],
             steps: ["Tavuk etini haşlayın. Püreyi ekleyip tamamen karıştırın.", "Tam lezzet için beyaz pirincin dibine serin."]
@@ -2279,7 +2279,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "equatorial_guinea_dish",
             name: "Succotash (Gine Fasülyesi)",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/LocationEquatorialGuinea.svg/960px-LocationEquatorialGuinea.svg.png",
+            imageURL: "",
             description: "Tropikal meyve sebze cennetinde Mısır domates fasulye yahnisi.",
             ingredients: ["Fasulye", "Mısır koçanı", "Balık", "Domates"],
             steps: ["Yeşillikleri kaynatıp balık garnitürüyle harmanlayın."]
@@ -2294,7 +2294,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "zambia_dish",
             name: "Nshima ve Ifisashi",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Nshima_and_Beef_Relish_from_Proteas_Hotel%2C_Chingola%2C_Zambia.jpg/960px-Nshima_and_Beef_Relish_from_Proteas_Hotel%2C_Chingola%2C_Zambia.jpg",
+            imageURL: "",
             description: "Sert nshima eşliğinde yer fıstığı kaplamalı dev ıspanak topları.",
             ingredients: ["Mısır unu", "Fıstık", "Kavrulmuş fasulye"],
             steps: ["Malzemeleri kalın macunlar halinde yoğun suda demleyip lapa haline getirerek ana yemek harmanı yapın.", "Fıstık ezmesinde boğulmuş sıcak sulu ıspanakla yiyin."]
@@ -2309,7 +2309,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "malawi_dish",
             name: "Chambo",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Nsima_Relishes.JPG",
+            imageURL: "",
             description: "Malavi Gölü'nün taptaze tilapia balığının körfez baharatlarıyla Nshima üstü muazzam sotesi.",
             ingredients: ["Tilapia (chambo) balığı", "Mısır unu", "Köri"],
             steps: ["Balığı sosla pişirip Mısır (Nsima) lapası üstüne demlendirin."]
@@ -2324,7 +2324,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "mozambique_dish",
             name: "Piri Piri İzgara Tavuk (Frango Piri-Piri)",
-            imageURL: "https://flagcdn.com/w640/mz.png",
+            imageURL: "",
             description: "Portekiz rüzgarlı Mozambik'in dünya yıldızı; Kuşbaşı biber, limon ve bol sarımsakla şok marine edilmiş devasa alev ızgara tavuğu.",
             ingredients: ["1 tam tavuk", "Piri-Piri (Thai chili) biber", "Limon", "Bol sarımsak ve tereyağı"],
             steps: ["Biber, limon ve sarımsak karışımıyla tavuğu kelebek usulü keserek 24 saat bekletin.", "Tavuğu ızgada ateşi yakarak kömür ateşinde dışındaki tereyağını erite erite efsanevi çıtırlıktan mühürleyin."]
@@ -2339,7 +2339,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "eswatini_dish",
             name: "Karoo Roast Ostrich",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/LocationEswatini.svg/960px-LocationEswatini.svg.png",
+            imageURL: "",
             description: "Devekuşu veya sığır etinin ateşte baharatı ile buluştuğu yüksek krallık töreni.",
             ingredients: ["Büyük sığır/devekuşu butu", "Deniz tuzu"],
             steps: ["Hafifçe ateş mangalında sulu kalarak demlendirin."]
@@ -2354,7 +2354,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "angola_dish",
             name: "Muamba de Galinha",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/d/d3/Moambe_-_noix_de_palme_sauce_with_chicken.jpg",
+            imageURL: "",
             description: "Angola'nın palmiye vizyonu, Okra (Bamya) banyosunda acılı sarımsaklı tavuk.",
             ingredients: ["Taze tavuk", "Okra", "Palmiye Ezmesi", "Acı Limon"],
             steps: ["Tavuk sarımsak asidiyle yatırılır.", "Bamya fırınlanmış soslara tavuk eklenip palmiye sütüyle ezilir."]
@@ -2369,7 +2369,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "burundi_dish",
             name: "Boko Boko Harees",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Meal-options_in_Burundi.jpg",
+            imageURL: "",
             description: "Özel ezilmiş buğday (keşkek) ve ağır ateşte didiklenmiş tavuk etinin görkemli safranlı karışımı.",
             ingredients: ["3 su bardağı haşalık aşurelik buğday", "500 g tavuk göğsü", "Safran veya zerdeçal", "Terayağı"],
             steps: ["Buğdayı geceden ıslatıp tam lapa olana kadar kaynatın.", "Tavuğu baharatlarla lif olup parçalanana dek pişirin.", "Tavuk lifleri ve aşurelik buğdayı büyük ahşap kepçeyle döverek macunlaştırın. Üstüne eritilmiş saf tereyağı dökün."]
@@ -2384,7 +2384,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "palestine_dish",
             name: "Musakhan",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Palestinianbreakfastfalafel.jpg/960px-Palestinianbreakfastfalafel.jpg",
+            imageURL: "",
             description: "Bol sumaklı soğan ve tavuğun geleneksel Taboon ekmeği üzerindeki şöleni.",
             ingredients: ["Tavuk butları", "Bol soğan", "Sumak", "Zeytinyağı", "Taboon veya lavaş ekmeği"],
             steps: ["Soğanları sumak ve bol zeytinyağında iyice karamelize edin.", "Tavukları fırında kızartın.", "Ekmeği tavuk suyuyla nemlendirip üzerine soğanları ve tavuğu koyup fırınlayarak servis edin."]
@@ -2399,7 +2399,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "gambia_dish",
             name: "Domoda",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/LocationGambia.svg/960px-LocationGambia.svg.png",
+            imageURL: "",
             description: "Gambia'ya has; ezilmiş yer fıstığı sosuna fırtına gibi batan tavuk veya kuzu fıstık yahnisi.",
             ingredients: ["Tavuk eti", "1 bardak tatlandırılmamış yer fıstığı ezmesi", "Domates salçası", "Tatlı patates, bal kabağı", "Habanero acı biberi"],
             steps: ["Eti suyu çekene kadar soteleyin. İçine kabak ve patatesleri atarak fokurdayan suya ulaştırın.", "Ayrı bir tabakta sıcak et suyuyla dev bir fıstık ezmesini açıp krema formuna getirin ve kazana atın.", "Acı Habanero biberini (bütün olarak) patlatmadan tencereye atıp lezzet salınımı yaptırın.", "Yağ tam yüzeye vurunca bal kabağının eridiğinden emin olun, beyaz pilav üzerinde dökerek Afrika harikası yaratın."]
@@ -2414,7 +2414,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "qatar_dish",
             name: "Machboos",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/960px-Flag_of_Qatar.svg.png",
+            imageURL: "",
             description: "Kavruk baharatların, bütün kurutulmuş siyah limonun (Loomi) basmati pirinciyle dansı.",
             ingredients: ["Sığır veya Kuzu eti", "Loomi (Kurutulmuş Siyah Limon)", "Basmati pirinci", "Baharat (Karanfil, Kakule, Zerdeçal, Gül suyu)", "Domates"],
             steps: ["Etleri, ikiye delinmiş siyah loomilerle, soğanla, yoğun karanfil kokularıyla suya gömüp basınçlı şekilde pişirin.", "Etin kendi lezzet suyuna basmati pirincini dökerek Loomilerin o hafif küflü tatlı esrarengiz asidini pirince sızdırın.", "Tam dinlenmedeyken üstüne gül suyu serpilip ızgaralanmış bademle servis tabağına devirin."]
@@ -2429,7 +2429,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "kuwait_dish",
             name: "Mutabbaq Samak (Zubaidi Pilavı)",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Machboos.JPG/960px-Machboos.JPG",
+            imageURL: "",
             description: "Büyük pomfret balığının kızartılarak asidik pirinç tepsisinde safranla taçlandırılması.",
             ingredients: ["Bütün Taze Zubaidi balığı (Gümüş pomfret)", "Basmati Pirinci", "Kakule, Safran, Loomi"],
             steps: ["Balığı özel safranla marine ederek una bulayıp altınlaşana dek çıtırlaştırın.", "Et suyunu balığın başıyla ve sebzelerle fırınlayarak pirince dökün.", "Tatlı soğan, badem ve çıtır balıkla kule kurun."]
@@ -2444,7 +2444,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "oman_dish",
             name: "Shuwa",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Machboos.JPG/960px-Machboos.JPG",
+            imageURL: "",
             description: "Baharatlı kuzu etinin yer altında saatlerce yavaşça pişmesiyle hazırlanan bayram yemeği.",
             ingredients: ["Bütün kuzu kol veya but", "Özel Shuwa baharatı", "Muz yaprakları", "Sarımsak ve sirke"],
             steps: ["Eti sirke ve baharatla 24 saat marine edin.", "Muz yapraklarına sarıp özel yer altı fırınında veya çok kısık fırın ateşinde 12-24 saat pişirin.", "Lif lif ayrılan eti safranlı pilav üstünde servis edin."]
@@ -2459,7 +2459,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "vanuatu_dish",
             name: "Laplap",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Vanuatu_Beef_Curry_with_Boiled_Taro.jpg/960px-Vanuatu_Beef_Curry_with_Boiled_Taro.jpg",
+            imageURL: "",
             description: "Geleneksel muz yaprağı pastası lapası.",
             ingredients: ["Rendelenmiş muz veya yam", "Hindistan cevizi sütü", "Domuz eti", "Yabani ıspanak"],
             steps: ["Yöresel bitkileri muz yaprağına dizin.", "Püreyi üzerine sürüp hindistan cevizi sütü ekleyin.", "Bohça yapıp toprak fırında pişirin."]
@@ -2474,7 +2474,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "north_korea_dish",
             name: "Pyongyang Naengmyeon (Buzlu Kuzey Eriştesi)",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Various_North_Korean_foods.jpg/960px-Various_North_Korean_foods.jpg",
+            imageURL: "",
             description: "Karabuğday eriştesinin doğrudan buzlu efsane sığır eti/turşu suyu (Dongchimi) sosunda serinletilmesi.",
             ingredients: ["Sert, siyahımsı Karabuğday Noodle'ı", "Dongchimi (su beyaz turşusu ve sığır kombine)", "Kore armutu", "Haşlanmış yumurta"],
             steps: ["Karabuğday eriştesi sadece 2 dk kaynar suya girip hemen buz banyosunda çitilenip esnemesi ve kauçuğumsu bir sertlik hissi vermesi sağlanır.", "Tabağın zeminine dizilen erişte yumağına buz küpleri, salatalık ve armut konur.", "Sirke-Hardal ekseni kurulmuş efsanevi berrak sığır / dongchimi suyu tepesinden aşağı buzlar içinde boşaltılarak sıcak yazları yıdar."]
@@ -2489,7 +2489,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "bhutan_dish",
             name: "Ema Datshi",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Bhutanese_hemadatsi.jpg/960px-Bhutanese_hemadatsi.jpg",
+            imageURL: "",
             description: "Bhutan'ın meşhur acı biber ve peynir yahnisi.",
             ingredients: ["Acı yeşil biber", "Yerel peynir", "Soğan", "Sarımsak", "Tereyağı"],
             steps: ["Biber ve soğanları yumuşayana dek haşlayın.", "Peyniri ekleyip eriyene dek karıştırarak servis edin."]
@@ -2504,7 +2504,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "afghanistan_dish",
             name: "Kabuli Pulao",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Abdul_Rahman_Mosque_in_March_2010.jpg/960px-Abdul_Rahman_Mosque_in_March_2010.jpg",
+            imageURL: "",
             description: "Havuç, kuru üzüm ve etle zenginleştirilmiş Afgan pilavı.",
             ingredients: ["Basmati pirinci", "Kuzu eti", "Sarı havuç", "Kuru üzüm", "Kimyon"],
             steps: ["Eti haşlayıp kavrulmuş havuç ve üzümlerle harmanlayın.", "Pirinçle beraber demlendirerek servis edin."]
@@ -2519,7 +2519,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "tajikistan_dish",
             name: "Qurutob",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Tajik_dastarkhan_meal.jpg/960px-Tajik_dastarkhan_meal.jpg",
+            imageURL: "",
             description: "Tahta tabakta sunulan; yoğurt güneşte kurutulmuş Qurut toplarının sulandırılmasıyla yapılan sıcak salata-ekmek ziyafeti.",
             ingredients: ["2 adet Qurut (Güneşte kurutulmuş yoğurt topu) veya 1 su bardağı Süzme Yoğurt", "1 bütün Fatir ekmeği (katmerli ekmek)", "1 demet taze yeşillik (dereotu, maydanoz)", "2 adet büyük soğan", "3 yemek kaşığı keten tohumu yağı (kızartılmış) veya tereyağı"],
             steps: ["Qurut toplarını sıcak suda eritip sıvı, hafif tuzlu bir süzme yoğurt sosu (chalop) oluşturun.", "Ahşap, yayvan geleneksel bir tabağın içine Fatir ekmeğini fındık büyüklüğünde kopararak tamamen doldurun.", "Yoğurt sosunu ekmeklerin tamamını ıslatacak biçimde tahta tabağa güzelce dökün.", "Soğanları ince piyazlık doğrayın, keten tohumu yağında (veya tavada bol yağda) iyice kızartıp çıtır yapın. Yağla beraber yoğurdun üstüne boca edin, taze yeşillik serpip ortaya koyun."]
@@ -2534,7 +2534,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "kyrgyzstan_dish",
             name: "Beshbarmak",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/A_Kyrgyz_woman.JPG/960px-A_Kyrgyz_woman.JPG",
+            imageURL: "",
             description: "Beş parmak ile yenen, at, kuzu veya sığır etinden bol soğanlı taze el açması erişte.",
             ingredients: ["800 g kemikli kuzu veya sığır eti", "2 adet soğan", "3 su bardağı un", "1 adet yumurta", "Karabiber (taze çekilmiş)"],
             steps: ["Büyük tencerede eti soğuk suya alın, kaynamaya başlayınca kefini alıp 2 saat ağır ağır haşlayın.", "Un, yumurta ve tuzla sert bir hamur yoğurun. İncecik açıp kareler (noodle) şeklinde kesin.", "Et pişince sudan alın, aynı suya kestiğiniz hamurları atıp yumuşayana dek haşlayın.", "Soğanları halka halka doğrayın, et suyundan az miktar alarak soğanları 5 dakika içinde öldürün. En alta hamur, üste doğranmış et ve en üste soğanlı sos gezdirerek servis edin."]
@@ -2549,7 +2549,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "turkmenistan_dish",
             name: "Doğrama",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Turkmenistan.svg/960px-Flag_of_Turkmenistan.svg.png",
+            imageURL: "",
             description: "Özel ekmeğin elde ufalanıp kuzu eti ve çiğ soğan ile et suyunda harmanlanması.",
             ingredients: ["1 adet Turkmen Çöreği (tandır ekmeği)", "500 g kuzu inciği (veya kemikli haşlamalık)", "2 iri beyaz soğan", "1 adet domates"],
             steps: ["Kuzu etini içine soğan ve domates katarak çok uzun süre, lime lime dağılana kadar tencerede haşlayın.", "Tandırda pişmiş özel sert kurutulmuş ekmeği (Çörek), elinizle bıçak kullanmadan tel tel ufak boyutlara koparın.", "Taze beyaz soğanı zar gibi ufak ufak doğrayıp ekmek kırıklarıyla ovun.", "Liflenen sıcak etleri ve etlerin yoğun suyunu ekmek ve soğan tabağının üstüne boca edip sıcak sıcak yenmek üzere servis edin."]
@@ -2564,7 +2564,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "belarus_dish",
             name: "Draniki",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Potato_pancakes.jpg/960px-Potato_pancakes.jpg",
+            imageURL: "",
             description: "Rendelenmiş çiğ patates ile hazırlanan ikonik Belarus mücveri; ekşi krema fırtınası.",
             ingredients: ["5 büyük boy doğal nişastalı eski patates", "1 taze kuru soğan", "1 büyük yumurta", "2 yemek kaşığı un", "1 çay kaşığı tuz", "Ayçiçek yağı (bol bol kızartmak için)", "Ekşi krema (servis)"],
             steps: ["Patatesleri ve soğanı kalın dişli rendeden geçirin (soğan, patatesin kararmasını önler). Oluşan fazla sulu nişastayı avucunuzda sıkarak atın.", "Yumurta, un ve tuzu patateslerin içine ekleyip tahta bir kaşıkla yoğurur gibi karıştırın.", "Tavada ayçiçek yağını iyice kızdırın. Patates karışımından birer kaşık alarak tavaya bırakın ve yassı krepler haline getirin.", "Altı ve üstü nar gibi kızarıp dışı çıtır, içi yumuşak olana dek pişirin. Üstüne bir kaşık tam yağlı ekşi krema koyup sımsıcak tüketin."]
@@ -2579,7 +2579,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "ukraine_dish",
             name: "Ukrayna Borş (Borscht) Çorbası",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Food_from_Puzata_Hata_restaurant_in_Lviv.jpg/960px-Food_from_Puzata_Hata_restaurant_in_Lviv.jpg",
+            imageURL: "",
             description: "Yakut kırmızısı rengindeki muhteşem rengini pancardan alan, içinde bütün bir bahçe barındıran kültür çorbası.",
             ingredients: ["500 g kemikli sığır eti (iliği çok olmalı)", "3 adet büyük taze pancar (rendelenmiş)", "Yarım beyaz lahana (ince kıyılmış)", "2 havuç", "1 soğan", "2 patates", "1 yemek kaşığı sirke", "Domates salçası", "Dereotu ve ekşi krema"],
             steps: ["Eti 2 litre suya alarak sebze kökleri (defne, karabiber vb.) ile yavaşça 2 saat kaynatıp şeffaf ve harika bir et suyu (bouillon) çıkarın.", "Tavada soğan, havuç ve en önemlisi rendelenmiş pancarları az yağda kavurun. Rengini koruması için mutlaka 1 yemek kaşığı asit (sirke veya limon) ekleyin ve domates salçasıyla tatlandırın.", "Et suyunu süzüp etleri tiftikleyin. Kaynayan berrak et suyuna doğranmış patatesleri ve şerit lahana parçalarını atın. 15 dakika haşlayın.", "Tavadaki pancar sosunu ve tiftiklenmiş etleri çorbaya ekleyin. Kısık ateşte çorba yakut rengini alana dek 10 dakika pişirin. Taze dereotu ve ekşi kremayla taçlandırın."]
@@ -2594,7 +2594,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "moldova_dish",
             name: "Mămăligă",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sarmalute_mamaliguta.JPG/960px-Sarmalute_mamaliguta.JPG",
+            imageURL: "",
             description: "Kalın ve yoğun mısır irmiği ekmeğinin kızarmış domuz/kuzu eti, lor peyniri ve sarımsakla birleşimi.",
             ingredients: ["2 su bardağı mısır unu", "1 tatlı kaşığı tuz", "2.büyük dilim tereyağı", "300 g koyun peyniri (Bryndza)", "200 g kavurmalık dana veya domuz eti (Tokana)", "Ekşi krema"],
             steps: ["Demir veya döküm bir tencerede suyu kaynatın. Mısır irmiğini azar azar selseyle döküp ahşap oklava (facallet) ile sürekli çok güçlü çırpın. Püre değil, kesildiğinde dağılmayan kalıp gibi ekmek kıvamına gelmesi 30 dakika sürecek.", "Tavada ufak et parçalarını soğanla beraber suyu çıkıp kuruyana dek yoğun bir Tokana (sote) şeklinde kavurun.", "Pişen kalın Mămăligă'yı tencereden ahşap bir tepsiye ters çevirin ve iplik kullanarak dilimlere kesin.", "Mısır dilimini tabağa alın, yanına koyun peyniri, ev yapımı ekşi krema ve kavrulmuş eti (Tokana) dizerek yepyeni bir tat şöleni yaratın."]
@@ -2609,7 +2609,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "lithuania_dish",
             name: "Cepelinai (Zeppelin Köftesi)",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Cepelinai_Kaunas_2023.jpg/960px-Cepelinai_Kaunas_2023.jpg",
+            imageURL: "",
             description: "Uçan dev zeplinlere benzediği için bu ismi alan, çiğ ve pişmiş patatesin birleşiminden doğan dolgulu iri patates mantıları.",
             ingredients: ["6 adet çiğ patates (rendelenmiş ve suyu çok sıkı sıkılmış)", "2 adet haşlanmış ve ezilmiş püre patates", "250 g iyi kalite domuz veya dana kıyma", "1 adet soğan", "Tuz ve Karabiber", "Pastırma (veya bacon) parçacıkları (servis için)"],
             steps: ["Çiğ patateslerin rendesini çok iyi sıkın (nişastasını tutun). Sıkılmış kuru çiğ patatesi, haşlanmış püre patatesle yoğurarak sert, oyun hamuru kıvamı elde edin.", "İnce kıyılmış soğanı tava terletip kıymayla birleşin, harcı tuz ve tuzla yoğurun (iç çiğ konur).", "Patates hamurundan tenis topundan biraz küçük bezeler koparıp içini açın. Ortasına kıymadan koyun, hamuru elinizde yuvarlayarak pürüzsüz dev bir damla veya zeplin füzeleri şekline getirin.", "Kaynayan nişastalı suda 25 dakika haşlayın. Üstüne kızılötesi çıtır pastırma küpleri (Lajis) ve ekşi krema atıp dağıtmadan keserek yiyin."]
@@ -2624,7 +2624,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "latvia_dish",
             name: "Pelēkie Zirņi ar Speķi",
-            imageURL: "https://flagcdn.com/w640/lv.png",
+            imageURL: "",
             description: "Gri bezelyenin çıtır domuz/dana pastırması yağıyla pişirildiği bir Noel başyapıtı.",
             ingredients: ["400 g gri bezelye (büyük cins nohut benzeri kuru bezelye)", "150 g yoğun yağlı pastırma veya domuz göbek eti (speķis)", "1 dev soğan", "Tuz", "Kefir (içecek eşlikçisi)"],
             steps: ["Bezelyeleri (taş gibi serttirler) tam bir gece karbonatlı suda ıslatın. Ertesi gün taze bol suyla 2-3 saat iyice yumuşayana dek haşlayın.", "Soğanı çok ufak küpler halinde piyaz değil zar zar doğrayın. Speķis eti aynı eşitlilikte küpleştirin.", "Tavaya gram yağ koymadan et parçalarını atın. Yağı çıkıp kendisi kraker (cızbız) gibi çıtırdayana dek kavurun. Sonra soğanı yağın içine atıp altın yaldız olmasını izleyin.", "Susuz kalınan gri bezelyeleri bu şahane yağ fırtınasının içine katın. Tuz serpip 5 dakika tavada ezin. Servis edip yanına serin kefirle içerek tadını doruklayın."]
@@ -2639,7 +2639,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "estonia_dish",
             name: "Verivorst",
-            imageURL: "https://flagcdn.com/w640/ee.png",
+            imageURL: "",
             description: "Arpa ezmesi ile karıştırılmış geleneksel domuz kanı sosisi olan estonya gurur noel ziyafeti (Kan Sosis).",
             ingredients: ["Yarım kilo kan sosisi (verivorst)", "Domuz yağı (veya sıvıyağ)", "Yaban mersini veya kızılcık marmeladı (lingonberry)", "Fırınlanmış patates"],
             steps: ["Kan sosislerini hafifçe çatalla çok az delik açarak fırın tepsisine dizin.", "Özel fırınlanmış patateslerle birlikte az miktar domuz veya dana yağında kızıl kase olacak şekilde 180C'de 30 dakika ağır pişmeye sunun.", "Fırın sonrası derisi gevrekleşen ve tamamen pürüzleşen koyu siyah sosisleri sıcak tavada da isterseniz mühürleyin.", "Dilimleyin, yaban mersini (lingonberry) ekşi-tatlı asidik reçeli ile yan yana ekleyip keskin bir et ziyafeti verin."]
@@ -2654,7 +2654,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "luxembourg_dish",
             name: "Judd mat Gaardebounen",
-            imageURL: "https://flagcdn.com/w640/lu.png",
+            imageURL: "",
             description: "Tütsülenmiş tütsülü domuz kellesinin devasa bakla ile hardal sosunda haşlanması.",
             ingredients: ["1 Kg tütsülenmiş domuz gerdanı (Judd)", "2 Pırasa, Kereviz sapı, Havuç", "500 g geniş taze veya dondurulmuş bakla (Gaardebounen)", "3 Yemek kaşığı tereyağı ve 1 yemek kaşığı un (meyane)", "Beyaz şarap"],
             steps: ["Eti tuzundan arındırmak için gece boyunca hafif suda bekletin. Ertesi sabah geniş suda; pırasa, havuç, kereviz ile 2 ile 3 saat ağır ateşte çatal batana kadar haşlayın.", "Ayrı bir yerde baklaları 10 dk haşlayıp kabuklarını sıyırarak zümrüt yeşili kalplerini çıkarın.", "Tereyağını eritip unu kavurun. Etin o şahsına münhasır haşlama suyundan kepçeyle ekleyip, maydanoz, baklalar ve bolca luxembourg şarabı koyun. Koyu bir sos elde edin.", "Eti kalın biftek halinde kesin, tabana bakla sosunu basıp eti üstüne kurun. Lokul lukum!"]
@@ -2669,7 +2669,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "new_caledonia_dish",
             name: "Bougna",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/New_Caledonia_in_France_%28zoomed%29.svg/960px-New_Caledonia_in_France_%28zoomed%29.svg.png",
+            imageURL: "",
             description: "Yer domuz/tavuk etinin muz yaprağı ve tatlı patatesle yer fırınında saatlerce tütsülenmesi.",
             ingredients: ["1 tam Tavuk (veya balık iri doğranmış)", "Tatlı patates, Manyok (cassava) ve muz (plantain)", "1 Tam Hindistan cevizi suyu ve sütü", "Büyük yapraklı taze Muz yaprağı", "Tuz", "Kiraz domates (aroma vermek için)"],
             steps: ["Büyük düz taze bir muz yaprağını ateşin üstünde esnetin. Tabanına iri yapboz parçaları gibi tatlı patatesleri ve muzları (plantain) kule şeklinde döşeyin.", "Tavuk veya domuz etlerini çiğ olarak bu bitki tepesinin tam merkezine piramit gibi kurun. Kiraz domates ve yeşil biber atın.", "Kalın kremamsı taze Hindistan cevizi sütünü tuz ile çırparak tamamen piramidin üstüne yağdırın.", "Muz yapraklarını bohça haline geitirip palmiye yaprağı lifi ile dört boğum bağlayın. (Gelenek olarak saatlerce korlarda yeraltında gömülür), alternatif olarak 180 derece ev fırınında 3 saat ağır ateşte pişirin."]
@@ -2684,7 +2684,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "solomon_islands_dish",
             name: "Poi ile Birlikte Taze Resif Balığı",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Bowl_of_poi.jpg/960px-Bowl_of_poi.jpg",
+            imageURL: "",
             description: "Yerel adaların deniz suyunda fermente edilmiş devasa tatlı Taro köklerinin çiğ (veya buharda pişmiş) resif balıklarıyla seremonisi.",
             ingredients: ["1 kg Taro kökü", "Taze Okyanus balığı (Mercan balığı veya Snapper)", "Yeşil limon", "Tuz ve Chili biberi", "Sıcak Su"],
             steps: ["Dev Taro köklerini yıkayıp soyun. Kaynayan suda yumUşacık ipeksi olana dek yaklaşık bir saat kapağı kapalı çalkalayarak pişirin.", "Pişen Taroları yerel geniş tahta havana aktarıp taş bir havan tokmağıyla vurarak tamamen pürüzsüz yapışkan bir püreye (Poi) çevirin. Su ekleyerek kıvamı pürüzleştirin.", "Taze resif balığını kafa altından fileto ederek ince sashimi formatında dilimleyin. Lime suyunda veya domates asidinde 10 dakika marine edip doğal usulde pişirin.", "Parmaklarınızı (veya kaşığı) tatlı poi ezmesine daldırıp ağzınıza atın ve üzerine marinasyonlu ekşi deniz mahsulünden bir lokma alarak muazzam pasifik uyumunu yaşayın."]
@@ -2699,7 +2699,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "hong_kong_dish",
             name: "Dim Sum",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/a/a8/HK_Lin_Heng_Teahouse_ba.jpg",
+            imageURL: "",
             description: "Buharda pişmiş geleneksel Çin mantısı.",
             ingredients: ["250 g karides", "Mantı hamuru", "Soya sosu"],
             steps: ["İç harcı hazırlayın.", "Hamurları doldurup buharda pişirin.", "Sıcak servis edin."]
@@ -2714,7 +2714,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "cambodia_dish",
             name: "Fish Amok",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Bayonmarket01.JPG/960px-Bayonmarket01.JPG",
+            imageURL: "",
             description: "Hindistan cevizi sütlü balık körisi.",
             ingredients: ["500 g beyaz balık", "Hindistan cevizi sütü", "Limon otu", "Muz yaprağı"],
             steps: ["Sos hazırlayın.", "Balıkları muz yaprağında pişirin."]
@@ -2729,7 +2729,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "laos_dish",
             name: "Larb",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Tray_with_food_in_Laos.jpg/960px-Tray_with_food_in_Laos.jpg",
+            imageURL: "",
             description: "Kıymalı baharatlı salata.",
             ingredients: ["400 g tavuk göğsü kıyma", "3 yemek kaşığı taze limon suyu", "2 yemek kaşığı balık sosu", "1 demet taze nane", "1 demet taze kişniş", "2 adet kırmızı biber", "Kavrulmuş pirinç tozu", "Göbek marul"],
             steps: ["Tavuk kıymayı yağsız tavada pişirin.", "Limon suyu ve balık sosunu ekleyin.", "Pirinç tozunu ve yeşillikleri karıştırın.", "Marul yapraklarıyla servis edin."]
@@ -2744,7 +2744,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "portugal2_dish",
             name: "Pastel de Nata",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Bacalhau_desfiado_com_migas_e_grelos_%289374133341%29.jpg/960px-Bacalhau_desfiado_com_migas_e_grelos_%289374133341%29.jpg",
+            imageURL: "",
             description: "Kremalı milföy tart.",
             ingredients: ["Krema: 250 ml süt, 3 yumurta sarısı, 80 g şeker, 20 g un", "250 g hazır milföy hamuru", "Tarçın"],
             steps: ["Kremayı pişirip soğutun.", "Milföyü kalıplara yayın.", "250 derece fırında pişirin."]
@@ -2759,7 +2759,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "scotland_dish",
             name: "Haggis",
-            imageURL: "https://flagcdn.com/w640/gb.png",
+            imageURL: "",
             description: "İskoçya mirası; yulaf ve baharatlı et harcının eşsiz karışımı.",
             ingredients: ["Kuzu sakatatı", "Yulaf ezmesi", "Soğan", "Don yağı", "Hindistan cevizi (muskat)"],
             steps: ["Sakatatları haşlayıp kıyın, kavrulmuş yulaf ve baharatla karıştırın.", "Karışımı fırında veya haşlayarak pişirin.", "Püre patates ve şalgam ile servis yapın."]
@@ -2774,7 +2774,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "wales_dish",
             name: "Cawl",
-            imageURL: "https://flagcdn.com/w640/gb.png",
+            imageURL: "",
             description: "Kuzu ve sebze çorbası.",
             ingredients: ["700 g kuzu boyun eti", "Patates", "Pırasa", "Havuç"],
             steps: ["Eti mühürleyin.", "Sebzeleri ekleyip kısık ateşte pişirin."]
@@ -2789,7 +2789,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "trinidad_dish",
             name: "Doubles",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/4/4e/LocationTrinidadAndTobago.png",
+            imageURL: "",
             description: "Nohutlu sandviç.",
             ingredients: ["Nohut körisi", "Bara hamuru", "Acı sos"],
             steps: ["Hamuru mayalayıp kızartın.", "Ortasına nohut koyarak iki hamuru birleştirin."]
@@ -2804,7 +2804,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "guatemala_dish",
             name: "Pepián",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Cocido%2C_o_caldo_de_res.jpg/960px-Cocido%2C_o_caldo_de_res.jpg",
+            imageURL: "",
             description: "Kavrulmuş baharatlarla yapılan zengin Guatemala yahnisi.",
             ingredients: ["Tavuk", "Susam", "Kabak çekirdeği", "Domates", "Kuru biber"],
             steps: ["Tavuğu haşlayın.", "Kavrulmuş tohumları sebzelerle çekip sos yapın ve tavukla pişirin."]
@@ -2819,7 +2819,7 @@ let allCountries: [Country] = [
         famousDish: Dish(
             id: "honduras_dish",
             name: "Baleada",
-            imageURL: "https://upload.wikimedia.org/wikipedia/commons/1/11/PinchosAmericanos.jpg",
+            imageURL: "",
             description: "Un tortillası ile fasulye.",
             ingredients: ["4 adet un tortillası", "Kızarmış fasulye ezmesi", "Taze peynir", "Ekşi krema"],
             steps: ["Tortillayı ısıtın.", "İçine malzemeleri koyup katlayın."]
