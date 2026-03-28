@@ -12,21 +12,28 @@ struct GlobalOverlayGenerator {
                 guard let boundary = boundaries.first(where: { $0.countryId == country.id }) else { continue }
                 
                 let path = UIBezierPath()
+                var mainBounds = CGRect.zero
+                var maxArea: CGFloat = 0
+                
                 for (pi, polygon) in boundary.polygons.enumerated() {
                     guard let first = polygon.first else { continue }
                     
-                    // Start of polygon
-                    path.move(to: project(lat: first.lat, lon: first.lon, size: size))
+                    let subPath = UIBezierPath()
+                    subPath.move(to: project(lat: first.lat, lon: first.lon, size: size))
                     
-                    // We need to handle antimeridian wrap-around during drawing too!
-                    // If a polygon segment is too long, it's a wrap-around. 
-                    // But in a 2D equirectangular image, we just draw two separate polygons or use clipping.
-                    // For Natural Earth 110m, most polygons are already split at -180/180 or stay within one side.
                     for i in 1..<polygon.count {
                         let pt = polygon[i]
-                        path.addLine(to: project(lat: pt.lat, lon: pt.lon, size: size))
+                        subPath.addLine(to: project(lat: pt.lat, lon: pt.lon, size: size))
                     }
-                    path.close()
+                    subPath.close()
+                    path.append(subPath)
+                    
+                    let subBounds = subPath.bounds
+                    let area = subBounds.width * subBounds.height
+                    if area > maxArea {
+                        maxArea = area
+                        mainBounds = subBounds
+                    }
                 }
                 
                 ctx.cgContext.saveGState()
@@ -34,22 +41,14 @@ struct GlobalOverlayGenerator {
                 path.addClip()
                 
                 if let flagImg = UIImage(named: "\(country.id)_flag") {
-                    let bounds = path.bounds
-                    let imgAspect = flagImg.size.width / flagImg.size.height
-                    let boundsAspect = bounds.width / bounds.height
-                    
-                    var drawRect = bounds
-                    if imgAspect > boundsAspect {
-                        let newWidth = bounds.height * imgAspect
-                        drawRect.origin.x = bounds.minX - (newWidth - bounds.width) / 2
-                        drawRect.size.width = newWidth
-                    } else {
-                        let newHeight = bounds.width / imgAspect
-                        drawRect.origin.y = bounds.minY - (newHeight - bounds.height) / 2
-                        drawRect.size.height = newHeight
-                    }
-                    
-                    flagImg.draw(in: drawRect, blendMode: .normal, alpha: 0.85)
+                    // Use the bounds of the largest landmass to calculate the flag size.
+                    // This prevents flags for countries with overseas territories (France, UK) 
+                    // or antimeridian splits (Russia, USA) from scaling incorrectly.
+                    let bounds = mainBounds.isEmpty ? path.bounds : mainBounds
+                    // Draw flag perfectly stretched to the mainland bounding box.
+                    // This prevents multi-stripe flags from having entire stripes pushed outside the bounding box
+                    // due to aspect-filling math on extremely wide/tall countries like Russia or Chile.
+                    flagImg.draw(in: bounds, blendMode: .normal, alpha: 0.85)
                 } else {
                     let color = getPrimaryColor(for: country.flag)
                     color.withAlphaComponent(0.85).setFill()
@@ -57,7 +56,7 @@ struct GlobalOverlayGenerator {
                 }
                 
                 // Draw country name
-                let bounds = path.bounds
+                let bounds = mainBounds.isEmpty ? path.bounds : mainBounds
                 if bounds.width > 8 && bounds.height > 8 {
                     let text = country.name.uppercased()
                     let maxFontSize: CGFloat = 36.0

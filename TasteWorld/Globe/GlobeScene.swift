@@ -55,12 +55,8 @@ class GlobeScene: SCNScene {
         sphere.segmentCount = 96
         
         let material = SCNMaterial()
-        // Try to load bundled texture; fallback to procedural
-        if let texture = UIImage(named: "earth_texture") {
-            material.diffuse.contents = texture
-        } else {
-            material.diffuse.contents = UIColor(red: 0.18, green: 0.35, blue: 0.60, alpha: 1)
-        }
+        // Minimalist solid color for oceans (Hex: #273856)
+        material.diffuse.contents = UIColor(red: 0.153, green: 0.220, blue: 0.337, alpha: 1.0)
         material.specular.contents = UIColor(white: 0.3, alpha: 1)
         material.shininess = 60
         

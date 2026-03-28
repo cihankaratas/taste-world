@@ -52,6 +52,15 @@ class GlobeViewController: UIViewController {
         sceneView.scene = globeScene
         sceneView.pointOfView = cameraNode
         sceneView.isJitteringEnabled = true
+        
+        // Default coordinates for Turkey (Lat: ~39-42N, Lon: ~35E)
+        // X Pan (Longitude): -35 degrees to bring Eastern longitudes to the center.
+        let defaultPanX = Float(-35.0 * .pi / 180.0)
+        
+        // Y Pan (Latitude): 45 degrees optimally places Turkey slightly below the absolute UI center to fit the title.
+        let defaultPanY = Float(45.0 * .pi / 180.0)
+        
+        applyRotation(panX: defaultPanX, panY: defaultPanY)
     }
     
     private func setupGestures() {
@@ -183,11 +192,13 @@ class GlobeViewController: UIViewController {
                     let uv = hit.textureCoordinates(withMappingChannel: 0)
                     let lon = Double(uv.x) * 360.0 - 180.0
                     let lat = 90.0 - Double(uv.y) * 180.0 // Correctly maps top (v=0) to North (+90)
+
+
                     
                     if let country = findCountry(atLat: lat, lon: lon) {
                         onCountrySelected?(country)
-                        return
                     }
+                    return // Stop raycasting immediately after the front face is hit, prevents tapping through the ocean!
                 }
                 node = node?.parent
             }

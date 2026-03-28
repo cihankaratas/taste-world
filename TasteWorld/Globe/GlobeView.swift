@@ -16,3 +16,12 @@ struct GlobeView: UIViewControllerRepresentable {
     
     func updateUIViewController(_ uiViewController: GlobeViewController, context: Context) {}
 }
+
+#if DEBUG
+struct GlobeView_Previews: PreviewProvider {
+    static var previews: some View {
+        GlobeView(selectedCountry: .constant(nil))
+            .edgesIgnoringSafeArea(.all)
+    }
+}
+#endif
