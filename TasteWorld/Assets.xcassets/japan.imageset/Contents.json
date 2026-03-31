@@ -1,1 +1,13 @@
-{"images": [{"filename": "japan.jpg", "idiom": "universal"}], "info": {"author": "xcode", "version": 1}}
+{
+  "images": [
+    {
+      "filename": "japan.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

@@ -70,8 +70,7 @@ struct RecipeDetailView: View {
                 Image(uiImage: img)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(maxWidth: .infinity)
-                    .frame(height: 280)
+                    .frame(width: UIScreen.main.bounds.width, height: 280)
                     .clipped()
             } else {
                 // Gradient placeholder
