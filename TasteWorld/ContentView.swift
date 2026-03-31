@@ -6,6 +6,7 @@ struct ContentView: View {
     @State private var showingRecipe = false
     @State private var showingSplash = true
     @State private var showingFavorites = false
+    @State private var currentTab: Int = 0
     @EnvironmentObject var favoritesManager: FavoritesManager
     
     private var greetingMessage: String {
@@ -29,29 +30,67 @@ struct ContentView: View {
                 endPoint: .bottomTrailing
             )
             .ignoresSafeArea()
-            
+
             // Stars
             StarsView()
-            
+
             VStack(spacing: 0) {
                 // Top Header
                 headerView
                 
-                // Globe
-                GlobeView(selectedCountry: $selectedCountry)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .onChange(of: selectedCountry) { newCountry in
-                        if newCountry != nil {
-                            withAnimation(.spring(response: 0.4, dampingFraction: 0.75)) {
-                                showingRecipe = true
+                // Tab Content
+                if currentTab == 0 {
+                    // Globe Tab
+                    VStack(spacing: 0) {
+                        GlobeView(selectedCountry: $selectedCountry)
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .onChange(of: selectedCountry) { newCountry in
+                                if newCountry != nil {
+                                    withAnimation(.spring(response: 0.4, dampingFraction: 0.75)) {
+                                        showingRecipe = true
+                                    }
+                                }
                             }
-                        }
+
+                        bottomHint
                     }
+                } else {
+                    // Recipes List Tab
+                    RecipesListView()
+                }
                 
-                // Bottom hint
-                bottomHint
+                Spacer()
+                    .layoutPriority(-1)
+                
+                // Bottom Tab Bar
+                HStack(spacing: 0) {
+                    ForEach([(0, "🌍 Dünya"), (1, "📊 Sıralamalar")], id: \.0) { tab, label in
+                        Button {
+                            withAnimation(.easeInOut(duration: 0.2)) {
+                                currentTab = tab
+                            }
+                        } label: {
+                            Text(label)
+                                .font(.system(size: 14, weight: currentTab == tab ? .semibold : .regular))
+                                .foregroundColor(currentTab == tab ? Color(red: 1, green: 0.55, blue: 0.1) : .white.opacity(0.5))
+                            
+                            Spacer()
+                        }
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 14)
+                        .padding(.horizontal, 16)
+                    }
+                }
+                .background(Color.white.opacity(0.03))
+                .overlay(
+                    Rectangle()
+                        .fill(Color.white.opacity(0.08))
+                        .frame(height: 1),
+                    alignment: .top
+                )
+                .ignoresSafeArea(edges: .bottom)
             }
-            
+
             // Splash screen
             if showingSplash {
                 SplashView()
@@ -78,9 +117,6 @@ struct ContentView: View {
                     .presentationDragIndicator(.visible)
             }
         }
-        .sheet(isPresented: $showingFavorites) {
-            FavoritesView()
-        }
     }
     
     private var headerView: some View {
@@ -105,7 +141,9 @@ struct ContentView: View {
                 Button {
                     let impactMed = UIImpactFeedbackGenerator(style: .medium)
                     impactMed.impactOccurred()
-                    showingFavorites = true
+                    withAnimation {
+                        currentTab = 2
+                    }
                 } label: {
                     ZStack(alignment: .topTrailing) {
                         Image(systemName: "fork.knife.circle.fill")

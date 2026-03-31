@@ -142,6 +142,23 @@ struct RecipeDetailView: View {
                 .lineSpacing(4)
                 .fixedSize(horizontal: false, vertical: true)
                 .padding(.top, 4)
+            
+            HStack(spacing: 8) {
+                Image(systemName: "flame.fill")
+                    .font(.system(size: 14))
+                    .foregroundColor(Color(red: 1, green: 0.55, blue: 0.1))
+                
+                Text("\(country.famousDish.extractedCalories) kcal")
+                    .font(.system(size: 16, weight: .semibold))
+                    .foregroundColor(Color(red: 1, green: 0.55, blue: 0.1))
+            }
+            .padding(.horizontal, 12)
+            .padding(.vertical, 10)
+            .background(
+                RoundedRectangle(cornerRadius: 8)
+                    .fill(Color.white.opacity(0.08))
+            )
+            .padding(.top, 8)
         }
     }
     

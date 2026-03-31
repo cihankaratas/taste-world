@@ -16,6 +16,7 @@
 		3163128944CEF2E9FD9F057E /* download_commons.py in Resources */ = {isa = PBXBuildFile; fileRef = 6B8F8C7A60A26C31136C571F /* download_commons.py */; };
 		32CC22B7AE86C51EA680FEA5 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA10F8F8815E1235534D3E0 /* SplashView.swift */; };
 		38A4B1482F7C25FA000367D1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A4B1472F7C25FA000367D1 /* LoginView.swift */; };
+		38A4B14A2F7C3B20000367D1 /* RecipesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A4B1492F7C3B20000367D1 /* RecipesListView.swift */; };
 		3A95089AF4E24E6FF739C9FC /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA27550FEC56EFCEDE7898D /* Country.swift */; };
 		3AFB5FD02542150D772748C8 /* download_retry.py in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8845201D29CCF6E59B6AA /* download_retry.py */; };
 		4784FF0CE4484829C5B72BE8 /* update_recipes_tr.py in Resources */ = {isa = PBXBuildFile; fileRef = F4176C833022C74ABD3C6572 /* update_recipes_tr.py */; };
@@ -61,6 +62,7 @@
 		29D4A22F84008D1796C04A4F /* fix_steps2.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = fix_steps2.py; sourceTree = "<group>"; };
 		2F8ED126691C86E3A58D818E /* download_missing.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = download_missing.py; sourceTree = "<group>"; };
 		38A4B1472F7C25FA000367D1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		38A4B1492F7C3B20000367D1 /* RecipesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListView.swift; sourceTree = "<group>"; };
 		3F95DD75889B97A30213C684 /* download_all_images.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = download_all_images.py; sourceTree = "<group>"; };
 		42792B3A45DBA2D31C4D8DE6 /* reinject_countries.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = reinject_countries.py; sourceTree = "<group>"; };
 		4291B94A054DB46C3E34F44D /* download_pixabay.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = download_pixabay.py; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 		E5DF5E98DEDFC637F7774EB6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				38A4B1492F7C3B20000367D1 /* RecipesListView.swift */,
 				38A4B1472F7C25FA000367D1 /* LoginView.swift */,
 				ABD6D5B318FE647A83BDA91F /* FavoritesView.swift */,
 				5EAE3A044FDDF8871CF0A283 /* RecipeDetailView.swift */,
@@ -276,6 +279,7 @@
 				9196CC2AE326223EBFFB9902 /* FavoritesManager.swift in Sources */,
 				C7AE2EAEDF4C57CA5C5D4996 /* FavoritesView.swift in Sources */,
 				A26268329509AC647C35C8F9 /* GlobalOverlayGenerator.swift in Sources */,
+				38A4B14A2F7C3B20000367D1 /* RecipesListView.swift in Sources */,
 				8557A1DD1C939460B6EAA9AB /* GlobeScene.swift in Sources */,
 				38A4B1482F7C25FA000367D1 /* LoginView.swift in Sources */,
 				F65305287B02AF54DB22BDC5 /* GlobeView.swift in Sources */,
