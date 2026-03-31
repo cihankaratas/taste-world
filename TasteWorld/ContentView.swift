@@ -1,11 +1,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("username") private var storedUsername: String = ""
     @State private var selectedCountry: Country? = nil
     @State private var showingRecipe = false
     @State private var showingSplash = true
     @State private var showingFavorites = false
     @EnvironmentObject var favoritesManager: FavoritesManager
+    
+    private var greetingMessage: String {
+        let hour = Calendar.current.component(.hour, from: Date())
+        if hour >= 6 && hour < 12 { return "Günaydın" }
+        else if hour >= 12 && hour < 19 { return "İyi günler" }
+        else if hour >= 19 && hour <= 23 { return "İyi akşamlar" }
+        else { return "İyi geceler" }
+    }
     
     var body: some View {
         ZStack {
@@ -57,6 +66,9 @@ struct ContentView: View {
                     }
             }
         }
+        .fullScreenCover(isPresented: .init(get: { storedUsername.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty }, set: { _ in })) {
+            LoginView()
+        }
         .sheet(isPresented: $showingRecipe, onDismiss: {
             selectedCountry = nil
         }) {
@@ -75,6 +87,13 @@ struct ContentView: View {
         VStack(spacing: 4) {
             HStack {
                 VStack(alignment: .leading, spacing: 2) {
+                    if !storedUsername.isEmpty {
+                        Text("\(greetingMessage), \(storedUsername) 👋")
+                            .font(.system(size: 14, weight: .medium))
+                            .foregroundColor(.white.opacity(0.7))
+                            .padding(.bottom, 2)
+                    }
+                    
                     Text("TASTE")
                         .font(.system(size: 30, weight: .black, design: .rounded))
                         .foregroundColor(Color(red: 1, green: 0.55, blue: 0.1))
