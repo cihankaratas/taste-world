@@ -117,6 +117,11 @@ struct ContentView: View {
                     .presentationDragIndicator(.visible)
             }
         }
+        .sheet(isPresented: $showingFavorites) {
+            FavoritesView()
+                .presentationDetents([.large])
+                .presentationDragIndicator(.visible)
+        }
     }
     
     private var headerView: some View {
@@ -142,7 +147,7 @@ struct ContentView: View {
                     let impactMed = UIImpactFeedbackGenerator(style: .medium)
                     impactMed.impactOccurred()
                     withAnimation {
-                        currentTab = 2
+                        showingFavorites = true
                     }
                 } label: {
                     ZStack(alignment: .topTrailing) {
