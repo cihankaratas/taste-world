@@ -2,6 +2,7 @@ import SwiftUI
 
 struct FavoritesView: View {
     @EnvironmentObject var favoritesManager: FavoritesManager
+    @EnvironmentObject var firestoreService: FirestoreService
     @Environment(\.dismiss) private var dismiss
     
     @State private var selectedCountry: Country? = nil
@@ -11,7 +12,8 @@ struct FavoritesView: View {
             ZStack {
                 Color(red: 0.05, green: 0.05, blue: 0.12).ignoresSafeArea()
                 
-                let favorites = favoritesManager.getFavoriteCountries()
+                let sourceCountries = firestoreService.countries.isEmpty ? allCountries : firestoreService.countries
+                let favorites = sourceCountries.filter { favoritesManager.favoriteIDs.contains($0.id) }
                 
                 if favorites.isEmpty {
                     VStack(spacing: 16) {
@@ -91,4 +93,10 @@ struct FavoritesView: View {
         }
         .preferredColorScheme(.dark)
     }
+}
+
+#Preview {
+    FavoritesView()
+        .environmentObject(FavoritesManager())
+        .environmentObject(FirestoreService())
 }

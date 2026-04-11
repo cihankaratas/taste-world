@@ -8,6 +8,7 @@ struct ContentView: View {
     @State private var showingFavorites = false
     @State private var currentTab: Int = 0
     @EnvironmentObject var favoritesManager: FavoritesManager
+    @EnvironmentObject var firestoreService: FirestoreService
     
     private var greetingMessage: String {
         let hour = Calendar.current.component(.hour, from: Date())
@@ -42,7 +43,10 @@ struct ContentView: View {
                 if currentTab == 0 {
                     // Globe Tab
                     VStack(spacing: 0) {
-                        GlobeView(selectedCountry: $selectedCountry)
+                        GlobeView(
+                            selectedCountry: $selectedCountry,
+                            countries: firestoreService.countries.isEmpty ? allCountries : firestoreService.countries
+                        )
                             .frame(maxWidth: .infinity, maxHeight: .infinity)
                             .onChange(of: selectedCountry) { newCountry in
                                 if newCountry != nil {
@@ -121,6 +125,9 @@ struct ContentView: View {
             FavoritesView()
                 .presentationDetents([.large])
                 .presentationDragIndicator(.visible)
+        }
+        .onAppear {
+            firestoreService.fetchCountries()
         }
     }
     

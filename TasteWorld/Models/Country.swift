@@ -1,6 +1,6 @@
 import Foundation
 
-struct Country: Identifiable, Equatable {
+struct Country: Identifiable, Equatable, Codable {
     let id: String
     let name: String
     let flag: String
@@ -13,14 +13,24 @@ struct Country: Identifiable, Equatable {
     }
 }
 
-struct Dish: Identifiable, Equatable {
+struct Dish: Identifiable, Equatable, Codable {
     let id: String
     let name: String
     let imageURL: String
     let description: String
     let ingredients: [String]
     let steps: [String]
-    let calories: Int = 0
+    var calories: Int
+    
+    init(id: String, name: String, imageURL: String, description: String, ingredients: [String], steps: [String], calories: Int = 0) {
+        self.id = id
+        self.name = name
+        self.imageURL = imageURL
+        self.description = description
+        self.ingredients = ingredients
+        self.steps = steps
+        self.calories = calories
+    }
     
     // Description'dan kaloriyi extract eden computed property
     var extractedCalories: Int {

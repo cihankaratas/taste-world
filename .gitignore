@@ -30,3 +30,6 @@ restore_fix.py
 
 # Misc
 *.log
+serviceAccountKey.json
+countries_export.json
+upload_to_firestore.py

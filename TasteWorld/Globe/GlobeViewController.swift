@@ -9,6 +9,22 @@ class GlobeViewController: UIViewController {
     
     var onCountrySelected: ((Country) -> Void)?
     
+    private var countries: [Country]
+    
+    init(countries: [Country]) {
+        self.countries = countries
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    func updateCountries(_ newCountries: [Country]) {
+        self.countries = newCountries
+        // If needed, update markers or other globe elements here
+    }
+    
     // Rotation state
     private var lastPanTranslation: CGPoint = .zero
     private var rotationVelocity: CGPoint = .zero
@@ -42,7 +58,7 @@ class GlobeViewController: UIViewController {
         cameraNode.camera = camera
         cameraNode.position = SCNVector3(0, 0, 2.8)
         
-        globeScene = GlobeScene(countries: allCountries)
+        globeScene = GlobeScene(countries: countries)
         globeScene.rootNode.addChildNode(cameraNode)
         
         let cameraControl = SCNNode()
@@ -210,7 +226,7 @@ class GlobeViewController: UIViewController {
         for boundary in allCountryBoundaries {
             for poly in boundary.polygons {
                 if isPointInPolygon(lat: lat, lon: lon, polygon: poly) {
-                    return allCountries.first(where: { $0.id == boundary.countryId })
+                    return countries.first(where: { $0.id == boundary.countryId })
                 }
             }
         }

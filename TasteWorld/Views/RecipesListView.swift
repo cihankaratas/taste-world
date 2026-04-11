@@ -5,6 +5,7 @@ struct RecipesListView: View {
     @State private var selectedRecipe: (country: Country, dish: Dish)? = nil
     @State private var showingRecipeDetail = false
     @EnvironmentObject var favoritesManager: FavoritesManager
+    @EnvironmentObject var firestoreService: FirestoreService
     
     enum SortOrder {
         case lowToHigh
@@ -19,7 +20,8 @@ struct RecipesListView: View {
     }
     
     var sortedRecipes: [(country: Country, dish: Dish)] {
-        let recipes = allCountries.map { country in
+        let sourceCountries = firestoreService.countries.isEmpty ? allCountries : firestoreService.countries
+        let recipes = sourceCountries.map { country in
             (country: country, dish: country.famousDish)
         }
         
@@ -202,4 +204,5 @@ struct RecipeRowView: View {
 #Preview {
     RecipesListView()
         .environmentObject(FavoritesManager())
+        .environmentObject(FirestoreService())
 }
