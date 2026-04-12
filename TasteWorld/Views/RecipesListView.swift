@@ -142,22 +142,48 @@ struct RecipeRowView: View {
         HStack(spacing: 12) {
             // Rank
             Text("\(rank)")
-                .font(.system(size: 16, weight: .bold))
+                .font(.system(size: 14, weight: .bold))
                 .foregroundColor(Color(red: 1, green: 0.55, blue: 0.1))
-                .frame(width: 30)
+                .frame(width: 24)
+            
+            // Dish Image Thumbnail
+            Group {
+                if !dish.imageURL.isEmpty {
+                    AsyncImage(url: URL(string: dish.imageURL)) { phase in
+                        switch phase {
+                        case .success(let image):
+                            image
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                        case .failure(_):
+                            Text(country.flag).font(.system(size: 24))
+                        case .empty:
+                            Color.white.opacity(0.1)
+                        @unknown default:
+                            EmptyView()
+                        }
+                    }
+                } else {
+                    Text(country.flag).font(.system(size: 24))
+                }
+            }
+            .frame(width: 50, height: 50)
+            .clipShape(RoundedRectangle(cornerRadius: 10))
+            .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.white.opacity(0.1), lineWidth: 1))
             
             // Country Flag & Name
             VStack(alignment: .leading, spacing: 4) {
-                HStack(spacing: 8) {
+                HStack(spacing: 6) {
                     Text(country.flag)
-                        .font(.system(size: 20))
+                        .font(.system(size: 14))
                     Text(country.name)
-                        .font(.system(size: 12, weight: .semibold))
-                        .foregroundColor(.white.opacity(0.6))
+                        .font(.system(size: 11, weight: .semibold))
+                        .foregroundColor(.white.opacity(0.5))
+                        .textCase(.uppercase)
                 }
                 
                 Text(dish.name)
-                    .font(.system(size: 14, weight: .bold))
+                    .font(.system(size: 15, weight: .bold))
                     .foregroundColor(.white)
                     .lineLimit(1)
             }

@@ -59,34 +59,35 @@ struct RecipeDetailView: View {
         }
 
         .onAppear {
-            loadDishImage()
+            // No need for custom loadDishImage with AsyncImage
         }
     }
     
     // MARK: - Hero Section
     private var heroSection: some View {
         ZStack {
-            if let img = dishImage {
-                Image(uiImage: img)
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: UIScreen.main.bounds.width, height: 280)
-                    .clipped()
-            } else {
-                // Gradient placeholder
-                LinearGradient(
-                    colors: [
-                        Color(red: 0.9, green: 0.4, blue: 0.1),
-                        Color(red: 0.8, green: 0.2, blue: 0.5)
-                    ],
-                    startPoint: .topLeading,
-                    endPoint: .bottomTrailing
-                )
-                .frame(height: 280)
-                .overlay {
-                    Text(country.flag)
-                        .font(.system(size: 100))
+            if !country.famousDish.imageURL.isEmpty {
+                AsyncImage(url: URL(string: country.famousDish.imageURL)) { phase in
+                    switch phase {
+                    case .success(let image):
+                        image
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .transition(.opacity.combined(with: .scale(scale: 1.02)))
+                    case .failure(_):
+                        placeholderOrLocalImage
+                    case .empty:
+                        ProgressView()
+                            .tint(.white)
+                    @unknown default:
+                        EmptyView()
+                    }
                 }
+                .frame(width: UIScreen.main.bounds.width, height: 280)
+                .clipped()
+            } else {
+                placeholderOrLocalImage
+                    .frame(width: UIScreen.main.bounds.width, height: 280)
             }
             
             // Bottom gradient fade
@@ -100,6 +101,29 @@ struct RecipeDetailView: View {
                 .frame(height: 100)
             }
             .frame(height: 280)
+        }
+    }
+    
+    private var placeholderOrLocalImage: some View {
+        Group {
+            if let img = UIImage(named: country.id) {
+                Image(uiImage: img)
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+            } else {
+                LinearGradient(
+                    colors: [
+                        Color(red: 0.9, green: 0.4, blue: 0.1),
+                        Color(red: 0.8, green: 0.2, blue: 0.5)
+                    ],
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                )
+                .overlay {
+                    Text(country.flag)
+                        .font(.system(size: 100))
+                }
+            }
         }
     }
     
@@ -246,22 +270,7 @@ struct RecipeDetailView: View {
         .transition(.opacity.combined(with: .move(edge: .trailing)))
     }
     
-    // MARK: - Image Loading
-    private func loadDishImage() {
-        if let localImage = UIImage(named: country.id) {
-            withAnimation { self.dishImage = localImage }
-            return
-        }
-        
-        guard let url = URL(string: country.famousDish.imageURL) else { return }
-        URLSession.shared.dataTask(with: url) { data, _, _ in
-            if let data = data, let image = UIImage(data: data) {
-                DispatchQueue.main.async {
-                    withAnimation { dishImage = image }
-                }
-            }
-        }.resume()
-    }
+    // loadDishImage removed in favor of AsyncImage
 }
 
 #Preview {

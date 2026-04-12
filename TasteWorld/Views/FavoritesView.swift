@@ -31,14 +31,40 @@ struct FavoritesView: View {
                                 selectedCountry = country
                             } label: {
                                 HStack(spacing: 16) {
-                                    Text(country.flag)
-                                        .font(.system(size: 40))
+                                    // Dish Thumbnail
+                                    Group {
+                                        if !country.famousDish.imageURL.isEmpty {
+                                            AsyncImage(url: URL(string: country.famousDish.imageURL)) { phase in
+                                                switch phase {
+                                                case .success(let image):
+                                                    image
+                                                        .resizable()
+                                                        .aspectRatio(contentMode: .fill)
+                                                case .failure(_):
+                                                    Text(country.flag).font(.system(size: 24))
+                                                case .empty:
+                                                    Color.white.opacity(0.1)
+                                                @unknown default:
+                                                    EmptyView()
+                                                }
+                                            }
+                                        } else {
+                                            Text(country.flag).font(.system(size: 32))
+                                        }
+                                    }
+                                    .frame(width: 60, height: 60)
+                                    .clipShape(RoundedRectangle(cornerRadius: 12))
+                                    .overlay(RoundedRectangle(cornerRadius: 12).stroke(Color.white.opacity(0.1), lineWidth: 1))
                                     
                                     VStack(alignment: .leading, spacing: 4) {
-                                        Text(country.name)
-                                            .font(.system(size: 14, weight: .semibold))
-                                            .foregroundColor(.white.opacity(0.6))
-                                            .textCase(.uppercase)
+                                        HStack(spacing: 6) {
+                                            Text(country.flag)
+                                                .font(.system(size: 12))
+                                            Text(country.name)
+                                                .font(.system(size: 11, weight: .semibold))
+                                                .foregroundColor(.white.opacity(0.5))
+                                                .textCase(.uppercase)
+                                        }
                                         Text(country.famousDish.name)
                                             .font(.system(size: 18, weight: .bold))
                                             .foregroundColor(.white)
